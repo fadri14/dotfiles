@@ -80,7 +80,7 @@ packer.startup({
         }
 
         -- Scroll
-       use('karb94/neoscroll.nvim')
+        use('karb94/neoscroll.nvim')
 
         -- Treesitter
         use('nvim-treesitter/nvim-treesitter')

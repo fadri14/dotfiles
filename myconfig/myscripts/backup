@@ -45,7 +45,7 @@ then
 
         wait
 
-        echo $(date) > "$(pwd)/.date.txt"
+        sudo echo $(date) > "$(pwd)/.date.txt"
 
         echo -e "\nLe backup est terminé!\n"
     fi

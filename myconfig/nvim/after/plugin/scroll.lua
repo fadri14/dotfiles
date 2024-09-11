@@ -25,5 +25,5 @@ key['zt']    = {'zt', {'250'}}
 key['zz']    = {'zz', {'250'}}
 key['zb']    = {'zb', {'250'}}
 
-require('neoscroll.config').set_mappings(key)
+require('neoscroll').setup({ mappings = {} })
 
