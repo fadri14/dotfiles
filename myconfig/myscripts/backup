@@ -45,8 +45,6 @@ then
 
         wait
 
-        sudo echo $(date) > "$(pwd)/.date.txt"
-
         echo -e "\nLe backup est terminé!\n"
     fi
 elif [[ "$res0" = "i" ]]
