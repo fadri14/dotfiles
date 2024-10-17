@@ -17,4 +17,5 @@ if status is-interactive
     end
 
     starship init fish | source
+    zoxide init --cmd e fish | source
 end

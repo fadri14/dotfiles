@@ -5,7 +5,7 @@ swipe:
     right:
       command: "swaymsg 'workspace prev'"
     up:
-      command: "wtype -M win -k a -m win -k y"
+      command: "wtype -M win -k a -m win -k f"
     down:
       command: "wtype -M win -k q -m win"
   4:

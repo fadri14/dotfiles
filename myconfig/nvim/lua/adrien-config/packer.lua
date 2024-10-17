@@ -85,9 +85,6 @@ packer.startup({
         -- Treesitter
         use('nvim-treesitter/nvim-treesitter')
 
-        -- Wakatime
-        use ('wakatime/vim-wakatime')
-
         -- Neorg
         use {
           "nvim-neorg/neorg",
