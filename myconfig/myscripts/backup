@@ -9,7 +9,6 @@ declare -a folders=(
     "Vidéos"
     "Notes"
     ".ssh"
-    ".enhancd"
 )
 
 if [[ "$1" = "" ]]
