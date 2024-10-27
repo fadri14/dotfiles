@@ -32,8 +32,8 @@ then
 fi
 
 # alacritty
-sed -i "1 s|.*|import = [\"/home/adrien/.config/alacritty/$THEMETERM.toml\"]|" "$HOME/.config/alacritty/alacritty.toml"
-sed -i "5 s/.*/opacity = $OPACITETERM/" "$HOME/.config/alacritty/alacritty.toml"
+sed -i "36 s|.*|import = [\"/home/adrien/.config/alacritty/$THEMETERM.toml\"]|" "$HOME/.config/alacritty/alacritty.toml"
+sed -i "3 s/.*/opacity = $OPACITETERM/" "$HOME/.config/alacritty/alacritty.toml"
 
 # sway
 sed -i "6 s/.*/output * bg \/home\/adrien\/.config\/sway\/Images\/$WALLPAPER fill/" "$HOME/.config/sway/config.d/10-theme.conf"

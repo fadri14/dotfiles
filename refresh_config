@@ -24,7 +24,7 @@ declare -a configs=(
     "gammastep"
 )
 
-path2="$HOME/Documents/dotfiles/myconfig"
+path2="$HOME/Documents/projets/dotfiles/myconfig"
 
 if [[ ! -e "$path2" ]]
 then
