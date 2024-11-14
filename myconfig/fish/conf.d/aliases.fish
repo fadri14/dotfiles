@@ -12,7 +12,8 @@ alias sh "history | grep"
 alias pacdiff "DIFFPROG=meld pacdiff"
 alias gg "git pull"
 alias gs "git status"
-alias gp 'source ~/.config/fish/config.fish ; bash -e git_push $(pwd)'
+#alias gp 'source ~/.config/fish/config.fish ; bash -e git_push $(pwd)'
+alias gp 'git_push_fish'
 alias gc "git reset --hard && git clean -fd"
 alias gm "git stash && git pull && git stash apply"
 alias gb "gradle build"

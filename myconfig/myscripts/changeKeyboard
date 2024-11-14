@@ -19,6 +19,9 @@ then
     sed -i '9,47 s/^-- //' $pathNeo
 
     echo "bepo" > $state
+
+    notify-send -u low "Clavier : bépo"
+
 elif [[ "$value" = "bepo" ]]
 then
     # sway
@@ -33,6 +36,8 @@ then
     sed -i '9,47 s/^/-- /' $pathNeo
 
     echo "azerty" > $state
+
+    notify-send -u low "Clavier : azerty"
 fi
 
 swaymsg reload

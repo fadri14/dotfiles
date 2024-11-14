@@ -6,8 +6,8 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/home/adrien/Documents/master1/q1/projet_expertises"/>
-  <property name="lastOpenPath" value="/home/adrien/Documents/master1/q1/methodes_formelles/TP"/>
+  <property name="lastSavePath" value="/home/adrien/Documents/master1/q1/methodes_formelles"/>
+  <property name="lastOpenPath" value="/home/adrien/Documents/master1/q1/methodes_formelles"/>
   <property name="lastImagePath" value="/home/adrien/Images"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
@@ -134,7 +134,7 @@
   <property name="latexSettings.sourceViewAutoIndent" value="true"/>
   <property name="latexSettings.sourceViewSyntaxHighlight" value="true"/>
   <property name="latexSettings.sourceViewShowLineNumbers" value="false"/>
-  <property name="font" font="Sans" size="11"/>
+  <property name="font" font="Sans" size="9"/>
   <data name="buttonConfig">
     <data name="default">
       <attribute name="color" type="hex" value="ff007aff"/>
@@ -275,7 +275,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="text">
-      <attribute name="color" type="hex" value="ff00ff"/>
+      <attribute name="color" type="hex" value="ff0000"/>
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="verticalSpace">
