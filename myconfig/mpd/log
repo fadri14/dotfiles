@@ -41501,3 +41501,2040 @@ Nov 14 11:27 : player: played "Robin Schulz - Headlights [feat. Ilsey] [official
 Nov 14 11:34 : player: played "apashe-dies-irae-feat-black-prez.mp3"
 Nov 14 11:38 : player: played "twenty one pilots My Blood [Official Video].mp3"
 Nov 14 12:47 : player: played "twenty one pilots My Blood [Official Video].mp3"
+Nov 14 15:23 : player: played "twenty one pilots My Blood [Official Video].mp3"
+Nov 14 17:33 : player: played "twenty one pilots My Blood [Official Video].mp3"
+Nov 14 18:23 : player: played "twenty one pilots My Blood [Official Video].mp3"
+Nov 14 19:28 : player: played "twenty one pilots My Blood [Official Video].mp3"
+Nov 14 22:07 : player: played "Hugo TSR  Point de dpart clip officiel.mp3"
+Nov 15 08:29 : player: played "Hugo TSR  Point de dpart clip officiel.mp3"
+Nov 15 10:00 : player: played "Hugo TSR  Point de dpart clip officiel.mp3"
+Nov 15 18:34 : player: played "Hugo TSR  Point de dpart clip officiel.mp3"
+Nov 16 11:02 : player: played "Hugo TSR  Point de dpart clip officiel.mp3"
+Nov 17 13:14 : player: played "Hugo TSR  Point de dpart clip officiel.mp3"
+Nov 17 13:18 : player: played "rain-man-feat-oly-bring-back-the-summer-not-your-dope-remix.mp3"
+Nov 17 13:39 : player: played "rain-man-feat-oly-bring-back-the-summer-not-your-dope-remix.mp3"
+Nov 17 13:44 : player: played "Davodka Ft Melan Vrai Combat Audio.mp3"
+Nov 17 13:49 : player: played "TSR Crew  Sans Sommation.mp3"
+Nov 17 13:52 : player: played "Lewis Capaldi - Someone You Loved (Lyrics).mp3"
+Nov 17 14:02 : player: played "Bekar  Roue arrire clip officiel.mp3"
+Nov 17 14:05 : player: played "Dj Ross feat Kumi - La Vie [DJ Ross  Alessandro Viale Radio Edit].mp3"
+Nov 17 14:09 : player: played "Jo Cohen  Sex Whales - We Are [NCS Release].mp3"
+Nov 17 14:12 : player: played "Davodka Le Couteau Dans La Paix Clip Officiel.mp3"
+Nov 17 14:15 : player: played "VITAA feat. JUL - Ça les dérange (Audio Officiel).mp3"
+Nov 17 14:18 : player: played "imagine-dragons-natural-bass-boosted.mp3"
+Nov 17 14:22 : player: played "Tinoma  Find You.mp3"
+Nov 17 14:25 : player: played "imagine-dragons-believer-romy-wave-cover-nsg.mp3"
+Nov 17 14:29 : player: played "lookas-genesis.mp3"
+Nov 17 14:33 : player: played "Alan Walker  Lost Control (Lyrics) ft. Sorana.mp3"
+Nov 17 14:35 : player: played "dumb.mp3"
+Nov 17 14:39 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Nov 17 14:39 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Nov 17 14:39 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3 (mp3float), 0 channels, fltp): unspecified frame size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+Nov 17 14:39 : exception: Failed to decode /home/adrien/Musique/SOSO MANESS- SO MANESS.mp3; Invalid sample rate: 0
+Nov 17 14:39 : player: played "james-arthur-impossible.mp3"
+Nov 17 14:39 : player: played "SOSO MANESS- SO MANESS.mp3"
+Nov 17 14:39 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Nov 17 14:39 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Nov 17 14:39 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3float: Header missing
+Nov 17 14:39 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3 (mp3float), 0 channels, fltp): unspecified frame size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+Nov 17 14:39 : exception: Failed to decode /home/adrien/Musique/SOSO MANESS- SO MANESS.mp3; Invalid sample rate: 0
+Nov 17 14:39 : player: played "SOSO MANESS- SO MANESS.mp3"
+Nov 17 14:39 : player: played "neffex-dangerous.mp3"
+Nov 17 14:44 : player: played "Amir - Longtemps (Clip officiel).mp3"
+Nov 17 14:47 : player: played "Amir - Longtemps (Clip officiel).mp3"
+Nov 17 14:52 : player: played "Amir - Longtemps (Clip officiel).mp3"
+Nov 17 14:57 : player: played "Sexion d'Assaut - Avant qu'elle parte (Clip officiel).mp3"
+Nov 17 15:00 : player: played "Vitaa - Game Over ft. Maître Gims.mp3"
+Nov 17 15:05 : player: played "Stromae - Formidable (ceci n'est pas une leçon).mp3"
+Nov 17 15:27 : player: played "M. Pokora - Tombé (Clip officiel).mp3"
+Nov 17 15:30 : player: played "Louane - Nos Secrets (Vidéo Lyrics Officielle).mp3"
+Nov 17 15:34 : player: played "M. Pokora - Si t'es pas là (Clip officiel).mp3"
+Nov 17 15:38 : player: played "Louane - Secret.mp3"
+Nov 17 15:41 : player: played "Manau - La tribu de Dana (Clip Officiel remasterisé).mp3"
+Nov 17 15:45 : player: played "Maître Gims - Brisé (Clip officiel).mp3"
+Nov 17 15:48 : player: played "Louane - Aidez-moi (Visualizer).mp3"
+Nov 17 15:56 : player: played "TAL - Je Prends le Large (Clip Officiel).mp3"
+Nov 17 16:00 : player: played "Louane - Le bateau coule (Visualizer).mp3"
+Nov 17 16:03 : player: played "Louane - Pardonne-moi (Visualizer).mp3"
+Nov 17 16:07 : player: played "Amir - Longtemps (Clip officiel).mp3"
+Nov 17 16:10 : player: played "Canardo « M'en Aller » feat. Tal (Clip officiel).mp3"
+Nov 17 16:34 : player: played "Maître Gims - J'me tire (Clip officiel).mp3"
+Nov 17 16:39 : player: played "TAL - Le Sens de la Vie (Clip Officiel).mp3"
+Nov 17 16:44 : player: played "Louane - Les Étoiles (Clip Officiel).mp3"
+Nov 17 16:47 : player: played "TAL - Rien N'est Parfait (Clip Officiel).mp3"
+Nov 17 16:58 : player: played "Louane - Stp (Visualizer).mp3"
+Nov 17 17:08 : player: played "Maître Gims - Tu vas me manquer (Clip officiel).mp3"
+Nov 17 17:12 : player: played "VITAA & SLIMANE - Avant toi (Clip Officiel).mp3"
+Nov 17 17:16 : player: played "Soprano - Clown (Clip officiel).mp3"
+Nov 17 17:19 : player: played "[HD] Soprano Cosmo (Paroles).mp3"
+Nov 17 17:20 : player: played "Sexion d'Assaut - Ma direction (Clip officiel).mp3"
+Nov 17 17:20 : player: played "Lomepal - Evidemment.mp3"
+Nov 17 17:27 : player: played "Amir - Longtemps (Clip officiel).mp3"
+Nov 17 17:52 : player: played "Amir - On dirait (Clip officiel).mp3"
+Nov 17 17:54 : player: played "FAIRY TAIL Main Theme - SLOW.mp3"
+Nov 17 17:58 : player: played "OrelSan  La Qute CLIP OFFICIEL.mp3"
+Nov 17 18:01 : exception: No such directory
+Nov 17 18:04 : player: played "Louane - Secret.mp3"
+Nov 17 18:04 : exception: No such directory
+Nov 17 18:05 : exception: No such directory
+Nov 17 18:05 : player: played "Melfiano ： Cherche pas ⧸ scratchs ： Dj Eskondo.mp3"
+Nov 17 18:09 : player: played "Axwell  Ingrosso - Sun Is Shining.mp3"
+Nov 17 18:12 : exception: No such directory
+Nov 17 18:12 : exception: No such directory
+Nov 17 18:13 : exception: No such directory
+Nov 17 18:13 : player: played "Tonyz - Road So Far (Inspired By Alan Walker) [NCN Release].mp3"
+Nov 17 20:22 : player: played "TRFN - Crazy (feat. Siadou).mp3"
+Nov 17 20:22 : player: played "Lomepal - Ne me ramène pas.mp3"
+Nov 17 20:27 : player: played "Volts Face Ft Hayce Lemsi Still Fresh SPri Noir  Qui suisje Clip Officiel.mp3"
+Nov 17 20:31 : player: played "Sam Sparro Happiness (The Magician Remix).mp3"
+Nov 17 20:34 : player: played "Sub Urban - Cradles (Lyrics).mp3"
+Nov 17 20:39 : player: played "WW  Hardwell  Lil Jon - Live The Night (Extended Mix).mp3"
+Nov 17 20:42 : player: played "Sound Of Legend - Infinity (Official Video).mp3"
+Nov 17 20:45 : player: played "Davodka Ft Melan Vrai Combat Audio.mp3"
+Nov 17 20:49 : player: played "VITAA & SLIMANE - Avant toi (Clip Officiel).mp3"
+Nov 17 20:53 : player: played "Lemaitre - Closer ft. Jennie A..mp3"
+Nov 17 20:56 : player: played "layto-houndin.mp3"
+Nov 17 22:08 : player: played "Martin Garrix  Brooks - Byte.mp3"
+Nov 18 10:19 : player: played "Martin Garrix  Brooks - Byte.mp3"
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 178.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Nov 18 11:39 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Nov 18 11:39 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Nov 18 11:39 : ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 184.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Nov 18 11:39 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Nov 18 11:39 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Nov 18 11:39 : ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Nov 18 11:39 : update: added /boom.mp3
+Nov 18 11:39 : player: played "Martin Garrix  Brooks - Byte.mp3"
+Nov 18 11:39 : exception: No such directory
+Nov 18 11:40 : player: played "boom.mp3"
+Nov 18 11:40 : player: played "boom.mp3"
+Nov 18 11:40 : exception: Failed to decode /home/adrien/Musique/boom.mp3; Failed to open '/home/adrien/Musique/boom.mp3': No such file or directory
+Nov 18 11:40 : player: played "boom.mp3"
+Nov 18 11:43 : exception: Failed to decode /home/adrien/Musique/boom.mp3; Failed to open '/home/adrien/Musique/boom.mp3': No such file or directory
+Nov 18 11:43 : player: played "boom.mp3"
+Nov 18 12:16 : player: played "Alan Walker - Play (Lyrics) ft. K-391, Tungevaag, Mangoo.mp3"
+Nov 18 12:20 : player: played "David Guetta  Showtek - Bad ft. Vassy (Official Audio).mp3"
+Nov 18 13:43 : player: played "David Guetta  Showtek - Your Love (Lyric video).mp3"
+Nov 18 15:34 : player: played "David Guetta  Showtek - Your Love (Lyric video).mp3"
+Nov 18 17:34 : player: played "David Guetta  Showtek - Your Love (Lyric video).mp3"
+Nov 18 19:26 : player: played "David Guetta  Showtek - Your Love (Lyric video).mp3"
+Nov 18 19:29 : player: played "Dj Ross feat Kumi - La Vie [DJ Ross  Alessandro Viale Radio Edit].mp3"
+Nov 18 19:42 : player: played "ship-wrek-pain-feat-mia-vaile.mp3"
+Nov 18 19:46 : player: played "Katy Perry - Firework.mp3"
+Nov 18 19:49 : player: played "Louane - Maman.mp3"
+Nov 18 19:52 : player: played "brook-musique.mp3"
+Nov 18 19:56 : player: played "Sound Of Legend - Infinity (Official Video).mp3"
+Nov 18 19:59 : player: played "marshmello-keep-it-mello-ft-omar-linx-sikdope-remix.mp3"
+Nov 18 19:59 : player: played "L'intrigue.mp3"
+Nov 18 20:02 : player: played "Ampyx - Rise.mp3"
+Nov 18 20:06 : player: played "Davodka Ici Tes Personne Audio Officiel.mp3"
+Nov 18 22:11 : player: played "Davodka Addiction Audio Officiel.mp3"
+Nov 19 11:47 : player: played "Davodka Addiction Audio Officiel.mp3"
+Nov 19 17:39 : player: played "Davodka Addiction Audio Officiel.mp3"
+Nov 19 19:33 : player: played "Davodka Addiction Audio Officiel.mp3"
+Nov 19 19:40 : player: played "sam-smith-stay-with-me.mp3"
+Nov 19 19:44 : player: played "Louyah  Why You Mad Lyrics ft Gervs.mp3"
+Nov 19 19:48 : player: played "san-holo-lift-me-from-the-ground-feat-sofie-winterson.mp3"
+Nov 19 19:52 : player: played "twenty one pilots My Blood [Official Video].mp3"
+Nov 19 19:55 : player: played "3).mp3"
+Nov 19 22:24 : player: played "Parodie goût 1 les minion.mp3"
+Nov 20 11:58 : player: played "Parodie goût 1 les minion.mp3"
+Nov 20 13:07 : player: played "Parodie goût 1 les minion.mp3"
+Nov 20 15:38 : player: played "Parodie goût 1 les minion.mp3"
+Nov 20 16:04 : player: played "R3HAB x A Touch Of Class - All Around The World (La La La) (Official Video).mp3"
+Nov 20 17:17 : player: played "R3HAB x A Touch Of Class - All Around The World (La La La) (Official Video).mp3"
+Nov 20 17:24 : player: played "Imagine Dragons - Bad Liar.mp3"
+Nov 20 17:27 : player: played "riton-x-oliver-heldens-turn-me-on.mp3"
+Nov 20 17:32 : player: played "Liam Payne, Rita Ora - For You (Fifty Shades Freed).mp3"
+Nov 20 17:36 : player: played "prismo-stronger.mp3"
+Nov 20 17:38 : player: played "Beautiful Mistakes Ben Plum Stayer PACANI Cover Magic Cover Release.mp3"
+Nov 20 17:39 : player: played "my-hero-academia.mp3"
+Nov 20 17:42 : player: played "Kendji Girac - Andalouse (Paroles).mp3"
+Nov 20 17:45 : player: played "timo-stay-da-tweekaz.mp3"
+Nov 20 17:49 : player: played "mo-final-song.mp3"
+Nov 20 17:53 : player: played "Fifth Harmony - Work from Home ft. Ty Dolla $ign.mp3"
+Nov 20 17:56 : player: played "kshmr-marnik-mandala-magnace-remix.mp3"
+Nov 20 17:59 : player: played "Lemon Tree - Fools Garden.mp3"
+Nov 20 18:03 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Nov 20 18:03 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Nov 20 18:03 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3float: Header missing
+Nov 20 18:03 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3 (mp3float), 0 channels, fltp): unspecified frame size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+Nov 20 18:03 : exception: Failed to decode /home/adrien/Musique/Naps - La kiffance.mp3; Invalid sample rate: 0
+Nov 20 18:03 : player: played "Naps - La kiffance.mp3"
+Nov 20 18:06 : player: played "Nekfeu - On Verra.mp3"
+Nov 20 18:10 : player: played "DA Uzi Croismoi feat Ninho Clip officiel.mp3"
+Nov 20 18:13 : player: played "mako-smoke-filled-room-severo-remix-cover-art.mp3"
+Nov 20 18:17 : player: played "Galantis - Runaway (U  I) Lyrics.mp3"
+Nov 20 18:21 : player: played "Eminem - River (Audio) ft. Ed Sheeran.mp3"
+Nov 20 18:22 : player: played "Jenifer Lopez - I ain't your mama (Lyrics).mp3"
+Nov 20 20:14 : player: played "Jenifer Lopez - I ain't your mama (Lyrics).mp3"
+Nov 20 20:22 : player: played "Louane - Le bateau coule (Visualizer).mp3"
+Nov 20 20:25 : player: played "Nightcore Phoenix LBLVNC RIELL Lyrics.mp3"
+Nov 20 20:28 : player: played "morriscode-x-levianth-once-upon-a-time-feat-shivi.mp3"
+Nov 20 20:30 : player: played "Fairy Tail Against Magic.mp3"
+Nov 20 20:34 : player: played "Clean Bandit - Symphony feat. Zara Larsson [Official Video].mp3"
+Nov 20 20:38 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Nov 20 20:38 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Nov 20 20:38 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3 (mp3float), 0 channels, fltp): unspecified frame size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+Nov 20 20:38 : exception: Failed to decode /home/adrien/Musique/SOSO MANESS- SO MANESS.mp3; Invalid sample rate: 0
+Nov 20 20:38 : player: played "the-police-every-breath-you-take.mp3"
+Nov 20 20:38 : player: played "SOSO MANESS- SO MANESS.mp3"
+Nov 20 20:38 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Nov 20 20:38 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Nov 20 20:38 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3float: Header missing
+Nov 20 20:38 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3 (mp3float), 0 channels, fltp): unspecified frame size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+Nov 20 20:38 : exception: Failed to decode /home/adrien/Musique/SOSO MANESS- SO MANESS.mp3; Invalid sample rate: 0
+Nov 20 20:38 : player: played "SOSO MANESS- SO MANESS.mp3"
+Nov 20 20:42 : player: played "PZK - Chui bo.mp3"
+Nov 20 20:52 : player: played "defqwop-heart-afire-ft-strix.mp3"
+Nov 20 20:57 : player: played "Change your life - kygo ft.Avicii.mp3"
+Nov 20 21:00 : player: played "3lau-on-my-own.mp3"
+Nov 20 21:04 : player: played "FAIRY TAIL Main Theme - SLOW.mp3"
+Nov 20 21:07 : player: played "Alec Benjamin - Let Me Down Slowly [Official Video].mp3"
+Nov 20 21:11 : player: played "Flume - Never Be Like You feat. Kai [Official Music Video].mp3"
+Nov 20 21:13 : player: played "2TH  Jai des clip officiel.mp3"
+Nov 20 21:16 : player: played "poorchoice-advent-denial-feat-bolshiee.mp3"
+Nov 20 21:19 : player: played "neffex-cold.mp3"
+Nov 20 21:23 : player: played "OrelSan  La Qute CLIP OFFICIEL.mp3"
+Nov 20 22:17 : player: played "arc-north-my-love.mp3"
+Nov 21 09:09 : player: played "arc-north-my-love.mp3"
+Nov 21 09:12 : player: played "Alec Benjamin - Let Me Down Slowly [Official Video].mp3"
+Nov 21 09:28 : player: played "2TH - Ne Fuis Pas (Clip Officiel).mp3"
+Nov 21 09:31 : player: played "Avicii - Lonely Together ft. Rita Ora.mp3"
+Nov 21 09:37 : player: played "Soprano Feat. Marina Kaye - Mon Everest (Clip officiel).mp3"
+Nov 21 09:41 : player: played "The Chainsmokers - Closer (Lyrics)(ft. Halsey).mp3"
+Nov 21 09:44 : player: played "Bekar Zou.mp3"
+Nov 21 09:48 : player: played "Bekar Sur un banc du quartier.mp3"
+Nov 21 09:51 : player: played "The Prodigy - Omen.mp3"
+Nov 21 09:56 : player: played "neffex-careless.mp3"
+Nov 21 09:59 : player: played "Nightcore Willow Tree.mp3"
+Nov 21 10:02 : player: played "Distrion - Alibi (ft. Heleen) [NCS Release].mp3"
+Nov 21 10:06 : player: played "Lady Gaga, Bradley Cooper - Shallow.mp3"
+Nov 21 10:09 : player: played "james-arthur-impossible.mp3"
+Nov 21 10:13 : player: played "Bekar  Soleil sallume lyrics video.mp3"
+Nov 21 10:15 : player: played "Hit the road Jack.mp3"
+Nov 21 10:23 : player: played "one-piece-ost-straw-hat-pirates-beginn-counterattack.mp3"
+Nov 21 10:27 : player: played "neffex-rumors.mp3"
+Nov 21 10:34 : player: played "cant-hold-us-southend-revolution-remix-ft-ray-dalton-bass-boosted-macklemore.mp3"
+Nov 21 10:37 : player: played "Julian Perretta - I Cry.mp3"
+Nov 21 10:41 : player: played "Queen - Dont Stop Me Now (Lyrics)..mp3"
+Nov 21 10:45 : player: played "Rune RK - Calabria (Firebeatz Remix).mp3"
+Nov 21 10:49 : player: played "Martin Garrix  Brooks - Byte.mp3"
+Nov 21 10:55 : player: played "Lost Sky  Where We Started feat Jex.mp3"
+Nov 21 10:59 : player: played "mandy-raggadrop.mp3"
+Nov 21 11:03 : player: played "hayce-lemsi-x-volts-face-x-abdallah-bbn-prod-by-pyromanetmg.mp3"
+Nov 21 11:05 : player: played "massala-x-mute-hllw.mp3"
+Nov 21 11:09 : player: played "Alan Walker & Alex Skrindo - Sky.mp3"
+Nov 21 11:14 : player: played "hopex-fuego-copyright-free.mp3"
+Nov 21 11:19 : player: played "timmy-trumpet-diamonds.mp3"
+Nov 21 11:26 : player: played "Martin Garrix  Troye Sivan - There For You (Official Video).mp3"
+Nov 21 11:29 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Nov 21 11:29 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Nov 21 11:29 : ffmpeg/matroska,webm: Discarding ID3 tags because more suitable tags were found.
+Nov 21 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 21 11:30 : player: played "orelsan-pour-le-pire.mp3"
+Nov 21 11:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 21 11:48 : ffmpeg/matroska,webm: File extends beyond end of segment.
+Nov 21 11:48 : player: played "Melfiano ： Elle (prod El Gaouli).mp3"
+Nov 21 11:52 : player: played "Davodka Dernire Sommation Audio Officiel.mp3"
+Nov 21 11:55 : player: played "the-chainsmokers-dont-let-me-down.mp3"
+Nov 21 11:59 : player: played "imagine-dragons-radioactive.mp3"
+Nov 21 12:02 : player: played "tujamo-lotten-one-million.mp3"
+Nov 21 12:07 : player: played "New World Sound  Thomas Newson - Flute (Original Mix).mp3"
+Nov 21 12:10 : player: played "marshmello-annemarie-friends.mp3"
+Nov 21 12:13 : player: played "indochine-jai-demande-a-la-lune.mp3"
+Nov 21 12:17 : player: played "Charlie Puth - We Don't Talk Anymore ft. Selena Gomez (Lyrics Video).mp3"
+Nov 21 12:20 : player: played "casseurs-flowters-fais-les-backs.mp3"
+Nov 21 12:23 : player: played "Crazy Frog - Axel F.mp3"
+Nov 21 12:28 : player: played "the-script-hall-of-fame-dark-rehab-hardstyle.mp3"
+Nov 21 12:32 : player: played "the-chainsmokers-ft-xyl-setting-fires-its-different-remix.mp3"
+Nov 21 12:35 : player: played "RIDSA - Je m'en fous.mp3"
+Nov 21 12:40 : player: played "jaykode-know-better-feat-mister-blonde.mp3"
+Nov 21 12:40 : player: played "Martin Solveig - All Stars (Official Video) ft. ALMA.mp3"
+Nov 21 13:45 : player: played "Martin Solveig - All Stars (Official Video) ft. ALMA.mp3"
+Nov 21 13:48 : player: played "Maux de tte.mp3"
+Nov 21 13:50 : player: played "Davodka Misanthrope Clip Officiel.mp3"
+Nov 21 13:54 : player: played "trye-run-away-hardstyle.mp3"
+Nov 21 13:59 : player: played "Green Day Holiday - [Official Video].mp3"
+Nov 21 14:02 : player: played "Resume Intro.mp3"
+Nov 21 14:06 : player: played "bassjackers-makj-derp.mp3"
+Nov 21 14:50 : player: played "Bekar En principe clip officiel.mp3"
+Nov 21 14:54 : player: played "Axwell  Ingrosso - Sun Is Shining.mp3"
+Nov 21 14:57 : player: played "Jenifer - Comme cest bon (clip officiel version album).mp3"
+Nov 21 14:59 : player: played "jaykode-know-better-feat-mister-blonde.mp3"

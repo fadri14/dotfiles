@@ -4,7 +4,7 @@ set $term alacritty
 # Menu
 set $rofi_cmd rofi \
     -terminal '$term'
-set $menu $rofi_cmd -show drun -theme .config/rofi/theme.rasi
+set $menu $rofi_cmd -show drun -i -theme .config/rofi/theme.rasi
 
 set $left h
 set $down j

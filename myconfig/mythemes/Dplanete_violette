@@ -17,7 +17,7 @@ OPACITETERM=0.6
 THEMETERM=default_color
 
 #sway
-WALLPAPER=planete_violette.png
+WALLPAPER="$(basename "${BASH_SOURCE[0]}").png"
 
 #rofi
 BACKGROUND0=#212121F2

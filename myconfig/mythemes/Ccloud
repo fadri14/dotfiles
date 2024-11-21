@@ -17,7 +17,7 @@ OPACITETERM=0.7
 THEMETERM=github_light
 
 #sway
-WALLPAPER=cloud.jpg
+WALLPAPER="$(basename "${BASH_SOURCE[0]}").png"
 
 #rofi
 BACKGROUND0=#E6E6E6F2

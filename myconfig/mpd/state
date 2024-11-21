@@ -1,8 +1,8 @@
 sw_volume: 70
 audio_device_state:1:My Pulse Output
 state: pause
-current: 966
-time: 229.258000
+current: 439
+time: 151.367000
 random: 1
 repeat: 0
 single: 0
@@ -1034,4 +1034,5 @@ playlist_begin
 1020:Zedd, Elley Duhé - Happy Now (Official Music Video).mp3
 1021:Zedd, Grey - The Middle (Lyrics) ft. Maren Morris.mp3
 1022:neffex-free-me-lyrics.mp3
+1023:boom.mp3
 playlist_end
