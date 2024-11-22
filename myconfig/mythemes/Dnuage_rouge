@@ -3,8 +3,8 @@ THEMEFOND=black
 THEMEWRITE=#f1efef
 THEMEGTK=Adwaita:dark
 
-COLOR1=#493636
-COLOR3=#cda3cd
+COLOR1=#730505
+COLOR3=#6f2121
 COLOR2=$(python $HOME/.config/myscripts/hexa_middle.py $(echo $COLOR1 | sed 's/^.//') $(echo $COLOR3 | sed 's/^.//'))
 
 #waybar
