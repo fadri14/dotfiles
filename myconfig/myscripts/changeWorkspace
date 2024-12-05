@@ -1,0 +1,24 @@
+#!/bin/bash
+
+current_workspace=$(swaymsg -pt get_workspaces | grep focused)
+current_workspace=${current_workspace:9:2}
+
+if [ "$1" = "next" ]
+then
+    new_workspace=$(($current_workspace + 1))
+    if [[ $new_workspace = 6 ]]
+    then
+        new_workspace=1
+    fi
+elif [ "$1" = "prev" ]
+then
+    new_workspace=$(($current_workspace - 1))
+    if [[ $new_workspace = 0 ]]
+    then
+        new_workspace=5
+    fi
+else
+    exit 1
+fi
+
+swaymsg workspace number $new_workspace

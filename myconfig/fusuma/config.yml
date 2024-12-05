@@ -9,6 +9,10 @@ swipe:
     down:
       command: "wtype -M win -k q -m win"
   4:
+    left:
+      command: "/home/adrien/.config/myscripts/changeWorkspace next"
+    right:
+      command: "/home/adrien/.config/myscripts/changeWorkspace prev"
     down:
       command: "/home/adrien/.config/myscripts/closeApp"
     up:

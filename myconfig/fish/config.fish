@@ -4,6 +4,7 @@ if status is-interactive
     export EDITOR=/usr/bin/nvim
     export PATH="$HOME/.config/myscripts/:$PATH"
     export PATH="$PATH:$HOME/.cargo/bin/"
+    export DIFFPROG=meld
 
     bind \eh 'wtype !!\n'
     bind \e\r 'wtype -M ctrl -k f -m ctrl ; wtype \n'
