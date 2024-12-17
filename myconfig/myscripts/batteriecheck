@@ -1,57 +1,50 @@
 #!/bin/bash
 
-batterie_state="$HOME/.config/myscripts/.batterie_state.txt"
-
-if [[ ! -e  $batterie_state ]]
-then
-    echo "0" > $batterie_state
-fi
+batterie_state="0"
 
 while true
 do
     if [[ "$(acpi -a | cut -f 3 -d ' ')" = "off-line" ]]
     then
         level=$(acpi -b | cut -d ',' -f 2 | cut -d ' ' -f 2 | tr -d '%')
-# && [[ "$(cat $batterie_state)" != "3" ]] # Retirer ce commentaire pour ne pas spammer si c'est en dessous de 5%
-        if [[ "$level" -le 5 ]]
+
+        if [[ "$level" -le 5 ]] # && [[ $batterie_state != "3" ]] # Retirer ce commentaire pour ne pas spammer si c'est en dessous de 5%
         then
             notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur !!!!!"
-            echo "3" > $batterie_state
-            sleep 30s
+            batterie_state="3"
         elif [[ "$level" -le 10 ]]
         then
-            if [[ "$(cat $batterie_state)" != "2" ]]
+            if [[ $batterie_state != "2" ]]
             then
                 notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur !!!"
-                echo "2" > $batterie_state
+                batterie_state="2"
             fi
-
-            sleep 60s
         elif [[ "$level" -le 20 ]]
         then
-            if [[ "$(cat $batterie_state)" != "1" ]]
+            if [[ $batterie_state != "1" ]]
             then
                 notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur"
-                echo "1" > $batterie_state
+                batterie_state="1"
             fi
-            sleep 60s
         fi
 
         time_pause=$(( $level - 20 ))
 
         if [[ ! $time_pause -le 0 ]]
         then
-            time_pause=$(( $time_pause * 70 ))
+            time_pause=$(( $time_pause * 90 ))
             eval "sleep ${time_pause}s"
+        else
+            sleep 60s
         fi
     else
-        if [[ "$level" = "100" ]]
+        if [[ "$level" > "99" ]]
         then
             notify-send "Le pc est complétement chargé"
         fi
 
-        echo "0" > $batterie_state
-        sleep 30m
+        batterie_state="0"
+        sleep 60m
     fi
 done
 

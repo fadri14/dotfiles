@@ -9,7 +9,6 @@ alias o "xdg-open 2> /dev/null"
 alias mybackup "save_freetube b ; echo '' && backup b"
 alias findexe "find $(pwd) -type f -executable"
 alias sh "history | grep"
-alias pacdiff "DIFFPROG=meld pacdiff"
 alias gg "git pull"
 alias gs "git status"
 #alias gp 'source ~/.config/fish/config.fish ; bash -e git_push $(pwd)'
