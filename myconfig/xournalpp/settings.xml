@@ -6,15 +6,15 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/home/adrien/Documents/master1/q1/projet_expertises"/>
-  <property name="lastOpenPath" value="/home/adrien/Documents/master1/q1/reseau2"/>
+  <property name="lastSavePath" value="/home/adrien/Documents/master1/q1/methodes_formelles"/>
+  <property name="lastOpenPath" value="/home/adrien/Documents/master1/q1/methodes_formelles"/>
   <property name="lastImagePath" value="/home/adrien/Images"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="2"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="948"/>
+  <property name="mainWndWidth" value="1902"/>
   <property name="mainWndHeight" value="1020"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
@@ -228,7 +228,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="highlighter">
-      <attribute name="color" type="hex" value="ff00ff"/>
+      <attribute name="color" type="hex" value="ff8000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>

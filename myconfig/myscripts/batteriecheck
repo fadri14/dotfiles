@@ -4,10 +4,9 @@ batterie_state="0"
 
 while true
 do
+    level=$(acpi -b | cut -d ',' -f 2 | cut -d ' ' -f 2 | tr -d '%')
     if [[ "$(acpi -a | cut -f 3 -d ' ')" = "off-line" ]]
     then
-        level=$(acpi -b | cut -d ',' -f 2 | cut -d ' ' -f 2 | tr -d '%')
-
         if [[ "$level" -le 5 ]] # && [[ $batterie_state != "3" ]] # Retirer ce commentaire pour ne pas spammer si c'est en dessous de 5%
         then
             notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur !!!!!"
@@ -38,13 +37,13 @@ do
             sleep 60s
         fi
     else
-        if [[ "$level" > "99" ]]
+        if [[ "$level" = "100" ]]
         then
             notify-send "Le pc est complétement chargé"
         fi
 
         batterie_state="0"
-        sleep 60m
+        sleep 30m
     fi
 done
 

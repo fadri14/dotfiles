@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export SSH_AGENT_PID:5238
-SETUVAR --export SSH_AUTH_SOCK:/tmp/ssh\x2dXXXXXXLzNfdg/agent\x2e5237
+SETUVAR --export SSH_AGENT_PID:2459
+SETUVAR --export SSH_AUTH_SOCK:/tmp/ssh\x2dXXXXXX7aHDDf/agent\x2e2458
 SETUVAR SSH_KEYS_TO_AUTOLOAD:/home/adrien/\x2essh/github
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
