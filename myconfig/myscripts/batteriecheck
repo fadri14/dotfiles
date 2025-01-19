@@ -25,6 +25,8 @@ do
                 notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur"
                 batterie_state="1"
             fi
+        else
+            batterie_state="0"
         fi
 
         time_pause=$(( $level - 20 ))
@@ -37,12 +39,12 @@ do
             sleep 60s
         fi
     else
-        if [[ "$level" = "100" ]]
+        if [[ "$level" = "100" && "$batterie_state" == "0" ]]
         then
             notify-send "Le pc est complétement chargé"
+            batterie_state="-1"
         fi
 
-        batterie_state="0"
         sleep 30m
     fi
 done
