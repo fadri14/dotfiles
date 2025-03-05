@@ -13,7 +13,7 @@ BUTTONHOVER=red
 COLORMODE=white
 
 #alacritty
-OPACITETERM=0.6
+OPACITETERM=0.7
 THEMETERM=default_color
 
 #sway
