@@ -23,6 +23,7 @@ declare -a configs=(
     "xournalpp"
     "melonDS"
     "gammastep"
+    "ttdl"
 )
 
 path2="$HOME/Documents/projets/dotfiles/myconfig"
