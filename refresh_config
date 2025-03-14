@@ -2,6 +2,7 @@
 
 declare -a configs=(
     "alacritty"
+    "helix"
     "dunst"
     "flashfocus"
     "nvim"
@@ -45,7 +46,7 @@ do
     fi
 
     {
-        rsync -a --delete --exclude='.cache' "${path1}" "${path2}" &> /dev/null
+        rsync -a --delete --exclude='runtime' "${path1}" "${path2}" &> /dev/null
         echo -e "\033[32mOK\033[0m $config"
     } &
 done
@@ -56,7 +57,7 @@ echo -e "\nVérification des contenus…\n"
 
 for config in "${configs[@]}"
 do
-    diff -qr "$HOME/.config/$config" "$path2/$config"
+    diff --exclude='runtime' -qr "$HOME/.config/$config" "$path2/$config"
 
     if [[ "$?" = "0" ]]
     then

@@ -1,0 +1,99 @@
+theme  = "catppuccin_latte_transparent"
+
+[editor]
+scrolloff = 5
+line-number = "relative"
+cursorline = true
+continue-comments = true
+color-modes = true
+text-width = 80
+bufferline = "multiple"
+true-color = true
+end-of-line-diagnostics = "hint"
+auto-completion = true
+auto-format = true
+gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
+jump-label-alphabet = "etis,curanovpdélbj.'kxgyhàf"
+#auto-pairs = true
+
+[editor.statusline]
+left = ["mode", "spinner", "diagnostics"]
+center = ["file-absolute-path", "file-modification-indicator"]
+right = ["position-percentage", "position", "total-line-numbers"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "VISUAL"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[editor.file-picker]
+hidden = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
+[editor.search]
+smart-case = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+character = "╎"
+render = true
+skip-levels = 1
+
+[editor.lsp]
+enable = true
+auto-signature-help=true
+display-messages = true
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+other-lines = "disable"
+
+[keys.normal]
+c = "move_char_left"
+t = "move_visual_line_down"
+s = "move_visual_line_up"
+r = "move_char_right"
+
+h = "change_selection"
+j = "find_till_char"
+k = "select_regex"
+l = "replace"
+
+T = "join_selections"
+S = "keep_selections"
+
+H = "copy_selection_on_next_line"
+J = "till_prev_char"
+K = "split_selection"
+L = "replace_with_yanked"
+
+'à' = ":w"
+'ê' = ":x"
+g = { e = "goto_word", w = "goto_last_line" }
+
+',' = "collapse_selection"
+';' = "keep_primary_selection"
+
+[keys.select]
+c = "extend_char_left"
+t = "extend_visual_line_down"
+s = "extend_visual_line_up"
+r = "extend_char_right"
+
+h = "change_selection"
+j = "find_till_char"
+k = "select_regex"
+l = "replace"
