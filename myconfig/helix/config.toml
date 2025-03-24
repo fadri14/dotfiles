@@ -82,10 +82,25 @@ L = "replace_with_yanked"
 
 'à' = ":w"
 'ê' = ":x"
-g = { e = "goto_word", w = "goto_last_line" }
 
 ',' = "collapse_selection"
 ';' = "keep_primary_selection"
+
+C-w = { c = "jump_view_left", t = "jump_view_down", s = "jump_view_up", r = "jump_view_right",  C = "swap_view_right", T = "swap_view_up", S = "swap_view_left", R = "swap_view_down",  j = "transpose_view", k = "hsplit" }
+
+[keys.normal.g]
+c = "goto_line_start"
+t = "move_line_down"
+s = "move_line_up"
+r = "goto_line_end"
+
+h = "goto_window_center"
+j = "goto_window_top"
+k = "goto_first_nonwhitespace"
+l = "goto_reference"
+
+e = "goto_word"
+G = "goto_last_line"
 
 [keys.select]
 c = "extend_char_left"
@@ -97,3 +112,18 @@ h = "change_selection"
 j = "find_till_char"
 k = "select_regex"
 l = "replace"
+
+[keys.select.g]
+c = "goto_line_start"
+t = "move_line_down"
+s = "move_line_up"
+r = "goto_line_end"
+
+h = "goto_window_center"
+j = "goto_window_top"
+k = "goto_first_nonwhitespace"
+l = "goto_reference"
+
+e = "goto_word"
+G = "goto_last_line"
+

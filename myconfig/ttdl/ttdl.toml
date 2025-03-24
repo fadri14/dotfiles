@@ -58,7 +58,7 @@ done = "bright black"
 # todos that are due today
 today = "bright yellow"
 # todos that are due in and less in `ranges.soon` days
-soon = "white"
+soon = "magenta"
 # todos that old (color for creation date)
 old = "bright black"
 # the default text color

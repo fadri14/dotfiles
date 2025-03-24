@@ -16,15 +16,16 @@ then
     source $HOME/.config/mythemes/$(cat $HOME/.config/myscripts/.actual_theme.txt)
 fi
 
-# neovim
 if [[ $theme_prev = "white" && $THEMEFOND = "black" ]]
 then
-    sed -i "1 s/.*/theme  = \"onedark_transparent\"/" "$HOME/.config/helix/config.toml"
+    sed -i '51 s/^/-- /' "$HOME/.config/nvim/after/plugin/catppuccin.lua"
+    sed -i '46 s/^-- //' "$HOME/.config/nvim/after/plugin/onedark.lua"
 
     echo 'source ~/.config/fish/themes/mytheme_dark.fish' > $HOME/.config/fish/conf.d/theme.fish
 elif [[ $theme_prev = "black" && $THEMEFOND = "white" ]]
 then
-    sed -i "1 s/.*/theme  = \"catppuccin_latte_transparent\"/" "$HOME/.config/helix/config.toml"
+    sed -i '51 s/^-- //' "$HOME/.config/nvim/after/plugin/catppuccin.lua"
+    sed -i '46 s/^/-- /' "$HOME/.config/nvim/after/plugin/onedark.lua"
 
     echo 'source ~/.config/fish/themes/mytheme_white.fish' > $HOME/.config/fish/conf.d/theme.fish
 fi
@@ -78,6 +79,9 @@ sed -i "50 s/bg:[^ ]*/bg:$COLOR2)'/" "$HOME/.config/starship.toml"
 sed -i "51 s/fg:[^ ]*/fg:$THEMEWRITE/" "$HOME/.config/starship.toml"
 sed -i "51 s/bg:[^ ]*/bg:$COLOR2)'/" "$HOME/.config/starship.toml"
 sed -i "54 s/.*/style = \"fg:$THEMEWRITE bg:$COLOR2\"/" "$HOME/.config/starship.toml"
+
+# helix
+sed -i "1 s/.*/theme  = \"$THEMEHELIX\"/" "$HOME/.config/helix/config.toml"
 
 swaymsg reload
 
