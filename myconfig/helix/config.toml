@@ -1,4 +1,4 @@
-theme  = "catppuccin_latte_transparent"
+theme  = "onedark_transparent"
 
 [editor]
 scrolloff = 5
@@ -18,7 +18,7 @@ jump-label-alphabet = "etis,curanovpdélbj.'kxgyhàf"
 
 [editor.statusline]
 left = ["mode", "spinner", "diagnostics"]
-center = ["file-absolute-path", "file-modification-indicator"]
+center = ["file-name", "file-modification-indicator"]
 right = ["position-percentage", "position", "total-line-numbers"]
 separator = "│"
 mode.normal = "NORMAL"
@@ -82,7 +82,8 @@ L = "replace_with_yanked"
 
 'à' = ":w"
 'ê' = ":x"
-'Ê' = ":q"
+'À' = ":q"
+'Ê' = ":q!"
 'é' = "move_next_word_start"
 
 ',' = "collapse_selection"

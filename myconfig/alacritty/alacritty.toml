@@ -1,6 +1,6 @@
 [window]
 decorations = "none"
-opacity = 0.8
+opacity = 0.7
 
 [window.padding]
 x = 10
@@ -33,7 +33,7 @@ family = "Hack Nerd Font"
 style = "Regular"
 
 [general]
-import = ["/home/adrien/.config/alacritty/github_light.toml"]
+import = ["/home/adrien/.config/alacritty/default_color.toml"]
 
 [terminal]
 
