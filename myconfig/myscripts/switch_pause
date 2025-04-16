@@ -1,0 +1,16 @@
+#!/bin/bash
+
+time_app_tracker --state switch
+
+path_light="/home/adrien/.config/myscripts/.light.txt"
+
+if [[ "$(time_app_tracker -s | grep State | grep on)" ]]
+then
+  if [[ "$(light -G)" = "0.00" ]]
+  then
+    light -S "$(cat $path_light)"
+  fi
+else
+  light -G > $path_light
+  light -S 0
+fi
