@@ -1,0 +1,10 @@
+#!/bin/bash
+
+time_app_tracker --state switch
+
+if [[ "$(time_app_tracker -s | grep State | grep on)" ]]
+then
+  exec notify-send "Time App Tracker : changement de l'état (ON)"
+else
+  exec notify-send "Time App Tracker : changement de l'état (OFF)"
+fi
