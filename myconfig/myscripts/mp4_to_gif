@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [[ $1 = "" ]]
+then
+ exit 1
+fi
+
+speed="1"
+
+if [[ $2 != "" ]]
+then
+ speed="$2"
+fi
+
+ffmpeg -i "$1.mp4" -vf "setpts=$speed*PTS,fps=5,scale=1920:1080:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=32[p];[s1][p]paletteuse" -loop 0 output.gif
+gifsicle -O3 --colors 32 -o $1.gif output.gif
+
+rm output.gif
+
+convert "$1.gif[0]" "$1.png"

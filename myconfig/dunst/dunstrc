@@ -319,7 +319,7 @@
     frame_color = "#0000ff"
     #icon = "~/.config/dunst/icons/low.svg"
     icon = "/home/adrien/.config/dunst/icons/kyogre.png"
-    timeout = 5
+    timeout = 2
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /home/adrien/.config/dunst/icons/kyogre.png
 

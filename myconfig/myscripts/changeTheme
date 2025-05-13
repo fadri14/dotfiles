@@ -85,3 +85,8 @@ sed -i "1 s/.*/theme  = \"$THEMEHELIX\"/" "$HOME/.config/helix/config.toml"
 
 swaymsg reload
 
+if [ "$(pgrep -x swww-daemon)" != "" ]
+then
+    swww kill
+    swww-daemon &
+fi

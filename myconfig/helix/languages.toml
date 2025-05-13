@@ -1,7 +1,7 @@
 [[language]]
 name = "rust"
-auto-format = true
-indent = { tab-width = 4, unit = " " }
+# auto-format = true
+# indent = { tab-width = 4, unit = " " }
 roots = [ "Cargo.toml", "Cargo.lock" ]
 diagnostic-severity = "warning"
 
