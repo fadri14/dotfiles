@@ -21,11 +21,15 @@ then
     sed -i '51 s/^/-- /' "$HOME/.config/nvim/after/plugin/catppuccin.lua"
     sed -i '46 s/^-- //' "$HOME/.config/nvim/after/plugin/onedark.lua"
 
+    sed -i "1 s/.*/exec_always gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'/" "$HOME/.config/sway/config.d/10-theme.conf"
+
     echo 'source ~/.config/fish/themes/mytheme_dark.fish' > $HOME/.config/fish/conf.d/theme.fish
 elif [[ $theme_prev = "black" && $THEMEFOND = "white" ]]
 then
     sed -i '51 s/^-- //' "$HOME/.config/nvim/after/plugin/catppuccin.lua"
     sed -i '46 s/^/-- /' "$HOME/.config/nvim/after/plugin/onedark.lua"
+
+    sed -i "1 s/.*/exec_always gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'/" "$HOME/.config/sway/config.d/10-theme.conf"
 
     echo 'source ~/.config/fish/themes/mytheme_white.fish' > $HOME/.config/fish/conf.d/theme.fish
 fi

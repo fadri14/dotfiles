@@ -55516,3 +55516,17 @@ Mar 23 13:20:51 : player: played "No Rival - Egzod, Maestro Chives, Alaina Cross
 2025-05-12T22:18:02 player: played "Henri PFR - Flames.mp3"
 2025-05-13T10:19:36 player: played "Henri PFR - Flames.mp3"
 2025-05-13T13:09:32 player: played "Henri PFR - Flames.mp3"
+2025-05-13T15:24:37 player: played "Henri PFR - Flames.mp3"
+2025-05-13T18:00:01 player: played "Henri PFR - Flames.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2025-05-13T19:00:41 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2025-05-13T19:01:27 player: played "Henri PFR - Flames.mp3"
+2025-05-13T19:01:27 player: played "Doigby - GUERRIER.mp3"
+2025-05-13T22:19:15 player: played "NEFFEX - Take Control.mp3"
+2025-05-14T10:04:57 player: played "NEFFEX - Take Control.mp3"
+2025-05-14T17:01:27 player: played "NEFFEX - Take Control.mp3"
+2025-05-14T19:04:59 player: played "NEFFEX - Take Control.mp3"
+2025-05-14T19:23:22 player: played "mandy-raggadrop.mp3"
+2025-05-14T19:27:20 player: played "Hozier - Take me to Church  Lyrics .mp3"
+2025-05-14T19:30:13 player: played "Davodka Le Mur Du Son.mp3"
+2025-05-14T19:38:56 player: played "jaykode-know-better-feat-mister-blonde.mp3"
