@@ -14,7 +14,7 @@ COLORMODE=white
 
 #alacritty
 OPACITETERM=0.85
-THEMETERM=github_light
+THEMETERM=catppuccin-latte
 
 #sway
 WALLPAPER="$(basename "${BASH_SOURCE[0]}").png"

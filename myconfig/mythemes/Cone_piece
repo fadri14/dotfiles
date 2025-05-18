@@ -14,7 +14,7 @@ COLORMODE=black
 
 #alacritty
 OPACITETERM=0.7
-THEMETERM=github_light
+THEMETERM=catppuccin-latte
 
 #sway
 WALLPAPER="Cstraw-hat-luffy.png"
