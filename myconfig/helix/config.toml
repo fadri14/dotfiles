@@ -1,4 +1,4 @@
-theme  = "onedark_transparent"
+theme  = "catppuccin_latte_transparent"
 
 [editor]
 scrolloff = 5

@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/home/adrien/Documents/master1/q2/calculabilite_complexite"/>
+  <property name="lastSavePath" value="/home/adrien/Documents/master1/q2/selected_topics_cybersecurite"/>
   <property name="lastOpenPath" value="/home/adrien/Documents/master1/q2/calculabilite_complexite"/>
   <property name="lastImagePath" value="/home/adrien/Documents/master1/q2/cybersecurite_seminaire/presentation/images"/>
   <property name="edgePanSpeed" value="20"/>
@@ -14,7 +14,7 @@
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="2"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="1902"/>
+  <property name="mainWndWidth" value="948"/>
   <property name="mainWndHeight" value="1020"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
