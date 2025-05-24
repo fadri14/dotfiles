@@ -1,0 +1,85 @@
+window {
+    font-size: 24pt;
+    color: #000000; /* Replace @foreground with actual color */
+    background-color: rgba(30,30,46,0.8);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    background-color: transparent;
+    animation: gradient_f 10s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682);
+    border-radius: 80px;
+    border: 0px;
+    outline-style: none;
+}
+
+button:focus {
+    background-color: transparent;
+    background-size: 50%;
+    border: 0px;
+    outline-style: none;
+}
+
+button:hover {
+    background-color: transparent; 
+    color: #000000; /* Replace @color13 with actual color */
+    background-size: 50%;
+    margin: 30px;
+    border-radius: 80px;
+    outline-style: none;
+}
+
+button span {
+    font-size: 1.2em; /* Increase the font size */
+}
+
+#lock {
+    background-image: url("./icons/lock.png");
+}
+
+#lock:hover {
+    background-image: url("./icons/lock-hover.png");
+}
+
+#logout {
+    background-image: url("./icons/logout.png");
+}
+
+#logout:hover {
+    background-image: url("./icons/logout-hover.png");
+}
+
+#suspend {
+    background-image: url("./icons/sleep.png");
+}
+
+#suspend:hover {
+    background-image: url("./icons/sleep-hover.png");
+}
+
+#poweroff {
+    background-image: url("./icons/power.png");
+}
+
+#poweroff:hover {
+    background-image: url("./icons/power-hover.png");
+}
+
+#reboot {
+    background-image: url("./icons/restart.png");
+}
+
+#reboot:hover {
+    background-image: url("./icons/restart-hover.png");
+}
+
+#hibernate {
+    background-image: url("./icons/hibernate.png");
+}
+
+#hibernate:hover {
+    background-image: url("./icons/hibernate-hover.png");
+}

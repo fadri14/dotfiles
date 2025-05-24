@@ -234,7 +234,7 @@ spawn-at-startup "xwayland-satellite" ":12"
 spawn-at-startup "mpd"
 spawn-at-startup "/home/adrien/.config/myscripts/trashTmp"
 spawn-at-startup "/home/adrien/.config/myscripts/batteriecheck"
-spawn-at-startup "echo" "no" ">" "/home/adrien/.ssh/state_connect"
+spawn-at-startup "sh" "-c" "echo no > /home/adrien/.ssh/state_connect"
 
 prefer-no-csd
 
@@ -243,10 +243,9 @@ screenshot-path "~/Images/Screenshots/ from %H-%M-%S.png"
 
 environment {
     XDG_CURRENT_DESKTOP "niri"
-    XDG_SESSION_TYPE "wayland"
-    QT_QPA_PLATFORM "wayland"
-    ELECTRON_OZONE_PLATFORM_HINT "auto"
     DISPLAY ":12"
+    XDG_SESSION_TYPE "wayland"
+    ELECTRON_OZONE_PLATFORM_HINT "auto"
 }
 
 cursor {
@@ -577,7 +576,6 @@ binds {
 
     Mod+Return       hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     Mod+D       hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Mod+Ctrl+L hotkey-overlay-title="Lock the Screen: gtklock" { spawn "gtklock"; }
 
     Mod+L { toggle-overview; }
 
@@ -585,6 +583,7 @@ binds {
 
     Mod+Ctrl+Delete hotkey-overlay-title="Quit Niri" { quit skip-confirmation=true; }
 
+    Mod+P hotkey-overlay-title="Display power menu" { spawn "wlogout"; }
     Mod+Shift+P hotkey-overlay-title="Switches off current screen" { power-off-monitors; }
 
     Shift+XF86AudioLowerVolume  allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }

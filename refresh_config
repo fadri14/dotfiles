@@ -25,6 +25,8 @@ declare -a configs=(
     "gammastep"
     "ttdl"
     "niri"
+    "gtklock"
+    "wlogout"
 )
 
 path2="$HOME/Documents/projets/dotfiles/myconfig"
