@@ -234,8 +234,10 @@ spawn-at-startup "xwayland-satellite" ":12"
 spawn-at-startup "mpd"
 spawn-at-startup "/home/adrien/.config/myscripts/trashTmp"
 spawn-at-startup "/home/adrien/.config/myscripts/batteriecheck"
+
 spawn-at-startup "sh" "-c" "echo no > /home/adrien/.ssh/state_connect"
 spawn-at-startup "swapon" "-a"
+spawn-at-startup "sh" "-c" "wl-paste --watch cliphist store"
 
 prefer-no-csd
 
@@ -579,6 +581,11 @@ binds {
     Mod+D       hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
 
     Mod+X { spawn "/home/adrien/.config/myscripts/connexion"; }
+
+    Mod+Tab hotkey-overlay-title="Navigate between currently open windows" { spawn "/home/adrien/.config/myscripts/focus_window"; }
+
+    Mod+egrave hotkey-overlay-title="Search the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
+    Mod+Shift+egrave hotkey-overlay-title="Delete an item from the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
 
     Mod+L { toggle-overview; }
 
