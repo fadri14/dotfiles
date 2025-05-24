@@ -1,0 +1,22 @@
+#!/bin/bash
+
+file="/home/adrien/.config/niri/config.kdl"
+state="/home/adrien/.config/myscripts/.keyboardState.txt"
+value="$(cat $state)"
+
+if [[ "$value" = "azerty" ]]
+then
+	sed -i '5s/\/\/\([[:space:]]*\)\(variant "bepo"\)/\1\2/' $file
+
+  notify-send -u low "Clavier : bépo"
+
+  echo "bépo" > $state
+
+elif [[ "$value" = "bépo" ]]
+then
+	sed -i '5s/^\([[:space:]]*variant "bepo"\)/\/\/\1/' $file
+
+	notify-send -u low "Clavier : azerty"
+
+  echo "azerty" > $state
+fi
