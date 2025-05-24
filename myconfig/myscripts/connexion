@@ -1,0 +1,8 @@
+#!/bin/bash
+
+choice=$(ls .password-store | sed 's/\.gpg//' | fuzzel --dmenu)
+
+if [ "$choice" != "" ]
+then
+  pass "$choice" | wtype -
+fi

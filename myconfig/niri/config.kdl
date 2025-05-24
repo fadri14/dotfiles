@@ -235,6 +235,7 @@ spawn-at-startup "mpd"
 spawn-at-startup "/home/adrien/.config/myscripts/trashTmp"
 spawn-at-startup "/home/adrien/.config/myscripts/batteriecheck"
 spawn-at-startup "sh" "-c" "echo no > /home/adrien/.ssh/state_connect"
+spawn-at-startup "swapon" "-a"
 
 prefer-no-csd
 
@@ -576,6 +577,8 @@ binds {
 
     Mod+Return       hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     Mod+D       hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+
+    Mod+X { spawn "/home/adrien/.config/myscripts/connexion"; }
 
     Mod+L { toggle-overview; }
 

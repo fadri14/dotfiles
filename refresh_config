@@ -27,6 +27,7 @@ declare -a configs=(
     "niri"
     "gtklock"
     "wlogout"
+    "fuzzel"
 )
 
 path2="$HOME/Documents/projets/dotfiles/myconfig"
