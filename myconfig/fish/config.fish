@@ -1,7 +1,7 @@
 if status is-interactive
     set -g fish_greeting ''
 
-    export EDITOR=/usr/bin/nvim
+    export EDITOR=/usr/bin/helix
     export PATH="$HOME/.config/myscripts/:$PATH"
     export PATH="$PATH:$HOME/.cargo/bin/"
     export DIFFPROG=meld

@@ -10,9 +10,9 @@ then
 
   notify-send -u low "Clavier : bépo"
 
-  echo "bépo" > $state
+  echo "bepo" > $state
 
-elif [[ "$value" = "bépo" ]]
+elif [[ "$value" = "bepo" ]]
 then
 	sed -i '5s/^\([[:space:]]*variant "bepo"\)/\/\/\1/' $file
 
