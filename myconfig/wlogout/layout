@@ -24,7 +24,7 @@
 }
 {
     "label" : "lock",
-    "action" : "gtklock -S -s ~/.config/gtklock/style.css -b ~/.config/sway/Images/Cfallaisechinoise.png -t '%T' --date-format '%A, %d/%m/%Y'",
+    "action" : "/home/adrien/.config/myscripts/run_gtklock",
     "text" : "Lock",
     "keybind" : "l"
 }

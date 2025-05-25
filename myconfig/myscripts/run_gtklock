@@ -1,0 +1,7 @@
+#!/bin/bash
+
+image="$(swww query | cut -d ' ' -f8)"
+
+niri msg action power-off-monitors
+
+gtklock -S -s ~/.config/gtklock/style.css -b "$image" -t '%T' --date-format '%A, %d/%m/%Y'
