@@ -28,6 +28,7 @@ declare -a configs=(
     "gtklock"
     "wlogout"
     "fuzzel"
+    "yazi"
 )
 
 path2="$HOME/Documents/projets/dotfiles/myconfig"
