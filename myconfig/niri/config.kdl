@@ -88,8 +88,8 @@ input {
     warp-mouse-to-focus mode="center-xy"
     // warp-mouse-to-focus mode="center-xy-always"
 
-    // focus-follows-mouse
-    focus-follows-mouse max-scroll-amount="0%"
+    focus-follows-mouse
+    // focus-follows-mouse max-scroll-amount="0%"
 
     mod-key "Super"
 }
@@ -169,7 +169,7 @@ layout {
         // active-color "#7fc8ff"
         // inactive-color "#505050"
         // urgent-color "#9b0000"
-        active-gradient from="#80c8ff" to="#bbddff" angle=45
+        active-gradient from="#493636" to="#cda3cd" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -208,7 +208,7 @@ layout {
         // active-color "red"
         // inactive-color "gray"
         // urgent-color "blue"
-        active-gradient from="#80c8ff" to="#bbddff" angle=45
+        active-gradient from="#493636" to="#cda3cd" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -227,18 +227,7 @@ layout {
     }
 }
 
-spawn-at-startup "waybar"
-spawn-at-startup "swww-daemon"
-spawn-at-startup "plasma-polkit-agent"
-spawn-at-startup "xwayland-satellite" ":12"
-spawn-at-startup "mpd"
-spawn-at-startup "/home/adrien/.config/myscripts/trashTmp"
-spawn-at-startup "/home/adrien/.config/myscripts/batteriecheck"
-
-spawn-at-startup "sh" "-c" "echo no > /home/adrien/.ssh/state_connect"
-spawn-at-startup "sh" "-c" "wl-paste --watch cliphist store"
-
-prefer-no-csd
+// prefer-no-csd
 
 // screenshot-path null
 screenshot-path "~/Images/Screenshots/ from %H-%M-%S.png"
@@ -416,7 +405,7 @@ window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
 
-    default-floating-position x=16 y=16 relative-to="bottom-right"
+    default-floating-position x=16 y=16 relative-to="top-right"
     draw-border-with-background false
 }
 
@@ -618,3 +607,13 @@ binds {
     Ctrl+Shift+Print { screenshot-screen; }
     Alt+Shift+Print { screenshot-window; }
 }
+
+spawn-at-startup "waybar"
+spawn-at-startup "swww-daemon"
+spawn-at-startup "plasma-polkit-agent"
+spawn-at-startup "xwayland-satellite" ":12"
+spawn-at-startup "mpd"
+spawn-at-startup "/home/adrien/.config/myscripts/trashTmp"
+spawn-at-startup "/home/adrien/.config/myscripts/batteriecheck"
+spawn-at-startup "sh" "-c" "echo no > /home/adrien/.ssh/state_connect"
+spawn-at-startup "sh" "-c" "wl-paste --watch cliphist store"

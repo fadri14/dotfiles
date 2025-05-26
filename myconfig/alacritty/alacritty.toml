@@ -1,6 +1,6 @@
 [window]
 decorations = "none"
-opacity = 0.9
+opacity = 0.6
 
 [window.padding]
 x = 10
@@ -33,7 +33,7 @@ family = "Hack Nerd Font"
 style = "Regular"
 
 [general]
-import = ["/home/adrien/.config/alacritty/catppuccin-latte.toml"]
+import = ["/home/adrien/.config/alacritty/default_color.toml"]
 
 [terminal]
 
