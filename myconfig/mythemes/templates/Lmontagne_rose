@@ -2,11 +2,5 @@ COLOR1=#5cb4f9
 COLOR3=#d864a1
 COLOR2=$(python $HOME/.config/myscripts/hexa_middle.py $(echo $COLOR1 | sed 's/^.//') $(echo $COLOR3 | sed 's/^.//'))
 
-#waybar
-BUTTONFOCUS=white
-BUTTONHOVER=red
-COLORMODE=black
-
 #alacritty
 OPACITETERM=0.8
-THEMETERM=catppuccin-latte

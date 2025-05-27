@@ -2,11 +2,5 @@ COLOR1=#421446
 COLOR3=#143046
 COLOR2=$(python $HOME/.config/myscripts/hexa_middle.py $(echo $COLOR1 | sed 's/^.//') $(echo $COLOR3 | sed 's/^.//'))
 
-#waybar
-BUTTONFOCUS=orange
-BUTTONHOVER=red
-COLORMODE=white
-
 #alacritty
 OPACITETERM=0.7
-THEMETERM=default_color

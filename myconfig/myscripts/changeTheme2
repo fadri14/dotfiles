@@ -17,11 +17,6 @@ then
     # fuzzel
     THEMEFUZZEL=dark
 
-    # waybar
-    BUTTONFOCUS=dark
-    BUTTONHOVER=grey
-    COLORMODE=white
-
     # alacritty
     OPACITETERM=0.7
     THEMETERM=default_color
@@ -46,11 +41,6 @@ then
 
     # fuzzel
     THEMEFUZZEL=light
-
-    # waybar
-    BUTTONFOCUS=white
-    BUTTONHOVER=grey
-    COLORMODE=black
 
     # alacritty
     OPACITETERM=0.8
@@ -96,17 +86,8 @@ sed -i "211 s/.*/        active-gradient from=\"$COLOR1\" to=\"$COLOR3\" angle=4
 sed -i "1 s|.*|include=/home/adrien/.config/fuzzel/$THEMEFUZZEL.ini|" "$HOME/.config/fuzzel/fuzzel.ini"
 
 # waybar
-sed -i "25 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
-sed -i "36 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
-sed -i "43 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
-sed -i "47 s/.*/    color: $BUTTONFOCUS;/" "$HOME/.config/waybar/style.css"
-sed -i "53 s/.*/    color: $BUTTONHOVER;/" "$HOME/.config/waybar/style.css"
-sed -i "74 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
-sed -i "80 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
-sed -i "26 s/.*/    background-image: linear-gradient(144deg, $COLOR1, $COLOR3);/" "$HOME/.config/waybar/style.css"
-sed -i "37 s/.*/    background-image: linear-gradient(144deg, $COLOR1, $COLOR3);/" "$HOME/.config/waybar/style.css"
-sed -i "75 s/.*/    background-image: linear-gradient(144deg, $COLOR1, $COLOR3);/" "$HOME/.config/waybar/style.css"
-sed -i "80 s/.*/    color: $COLORMODE;/" "$HOME/.config/waybar/style.css"
+sed -i "30 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
+sed -i "31 s/.*/    background-image: linear-gradient(144deg, $COLOR1, $COLOR3);/" "$HOME/.config/waybar/style.css"
 
 # alacritty
 sed -i "36 s|.*|import = [\"/home/adrien/.config/alacritty/$THEMETERM.toml\"]|" "$HOME/.config/alacritty/alacritty.toml"
