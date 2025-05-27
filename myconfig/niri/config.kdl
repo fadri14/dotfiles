@@ -154,8 +154,8 @@ layout {
         proportion 0.66667
     }
 
-    default-column-width { proportion 0.5; }
-    // default-column-width {}
+    // default-column-width { proportion 0.5; }
+    default-column-width {}
 
     preset-window-heights {
         proportion 0.33333
@@ -169,7 +169,7 @@ layout {
         // active-color "#7fc8ff"
         // inactive-color "#505050"
         // urgent-color "#9b0000"
-        active-gradient from="#493636" to="#cda3cd" angle=45
+        active-gradient from="#ed8660" to="#a780fa" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -208,7 +208,7 @@ layout {
         // active-color "red"
         // inactive-color "gray"
         // urgent-color "blue"
-        active-gradient from="#493636" to="#cda3cd" angle=45
+        active-gradient from="#ed8660" to="#a780fa" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -410,19 +410,14 @@ window-rule {
 }
 
 window-rule {
+    match app-id="FreeTube"
+    match app-id="Netflix"
     match app-id="librewolf"
     match app-id="signal"
     match app-id="discord"
     match app-id="com.github.xournalpp.xournalpp"
 
     open-maximized true
-}
-
-window-rule {
-    match app-id="FreeTube"
-    match app-id="Netflix"
-
-    open-fullscreen true
 }
 
 window-rule {
@@ -580,6 +575,8 @@ binds {
     Mod+space hotkey-overlay-title="Switch between azerty and bepo keyboards" { spawn "/home/adrien/.config/myscripts/changeKeyboard2"; }
 
     Mod+agrave { spawn "/home/adrien/.config/myscripts/switch_gamma"; }
+
+    Mod+ecircumflex { spawn "/home/adrien/.config/myscripts/select_theme"; }
 
     Mod+L { toggle-overview; }
 
