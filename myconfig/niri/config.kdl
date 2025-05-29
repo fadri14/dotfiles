@@ -169,7 +169,7 @@ layout {
         // active-color "#7fc8ff"
         // inactive-color "#505050"
         // urgent-color "#9b0000"
-        active-gradient from="#0f0b44" to="#323ef1" angle=45
+        active-gradient from="#5cb4f9" to="#d864a1" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -208,7 +208,7 @@ layout {
         // active-color "red"
         // inactive-color "gray"
         // urgent-color "blue"
-        active-gradient from="#0f0b44" to="#323ef1" angle=45
+        active-gradient from="#5cb4f9" to="#d864a1" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -227,7 +227,7 @@ layout {
     }
 }
 
-// prefer-no-csd
+prefer-no-csd
 
 // screenshot-path null
 screenshot-path "~/Images/Screenshots/ from %H-%M-%S.png"
@@ -456,41 +456,41 @@ layer-rule {
 binds {
     Mod+Shift+apostrophe { show-hotkey-overlay; }
 
-    Mod+Left  { focus-column-left; }
-    Mod+Down  { focus-window-down; }
-    Mod+Up    { focus-window-up; }
-    Mod+Right { focus-column-right; }
-    Mod+C     { focus-column-left; }
-    Mod+T     { focus-window-down; }
-    Mod+S     { focus-window-up; }
-    Mod+R     { focus-column-right; }
+    Mod+Left  { focus-column-or-monitor-left; }
+    Mod+Down  { focus-window-or-workspace-down; }
+    Mod+Up    { focus-window-or-workspace-up; }
+    Mod+Right { focus-column-or-monitor-right; }
+    Mod+C     { focus-column-or-monitor-left; }
+    Mod+T     { focus-window-or-workspace-down; }
+    Mod+S     { focus-window-or-workspace-up; }
+    Mod+R     { focus-column-or-monitor-right; }
 
-    Mod+Ctrl+Left  { move-column-left; }
-    Mod+Ctrl+Down  { move-window-down; }
-    Mod+Ctrl+Up    { move-window-up; }
-    Mod+Ctrl+Right { move-column-right; }
-    Mod+Ctrl+C     { move-column-left; }
-    Mod+Ctrl+T     { move-window-down; }
-    Mod+Ctrl+S     { move-window-up; }
-    Mod+Ctrl+R     { move-column-right; }
+    Mod+Shift+Left  { move-column-left-or-to-monitor-left; }
+    Mod+Shift+Down  { move-window-down-or-to-workspace-down; }
+    Mod+Shift+Up    { move-window-up-or-to-workspace-up; }
+    Mod+Shift+Right { move-column-right-or-to-monitor-right; }
+    Mod+Shift+C     { move-column-left-or-to-monitor-left; }
+    Mod+Shift+T     { move-window-down-or-to-workspace-down; }
+    Mod+Shift+S     { move-window-up-or-to-workspace-up; }
+    Mod+Shift+R     { move-column-right-or-to-monitor-right; }
 
-    Mod+Shift+Left  { focus-monitor-left; }
-    Mod+Shift+Down  { focus-monitor-down; }
-    Mod+Shift+Up    { focus-monitor-up; }
-    Mod+Shift+Right { focus-monitor-right; }
-    Mod+Shift+C     { focus-monitor-left; }
-    Mod+Shift+T     { focus-monitor-down; }
-    Mod+Shift+S     { focus-monitor-up; }
-    Mod+Shift+R     { focus-monitor-right; }
+    Mod+Ctrl+Left  { focus-monitor-left; }
+    Mod+Ctrl+Down  { focus-monitor-down; }
+    Mod+Ctrl+Up    { focus-monitor-up; }
+    Mod+Ctrl+Right { focus-monitor-right; }
+    Mod+Ctrl+C     { focus-monitor-left; }
+    Mod+Ctrl+T     { focus-monitor-down; }
+    Mod+Ctrl+S     { focus-monitor-up; }
+    Mod+Ctrl+R     { focus-monitor-right; }
 
-    Mod+Shift+Ctrl+Left  { move-column-to-monitor-left; }
-    Mod+Shift+Ctrl+Down  { move-column-to-monitor-down; }
-    Mod+Shift+Ctrl+Up    { move-column-to-monitor-up; }
-    Mod+Shift+Ctrl+Right { move-column-to-monitor-right; }
-    Mod+Shift+Ctrl+C     { move-column-to-monitor-left; }
-    Mod+Shift+Ctrl+T     { move-column-to-monitor-down; }
-    Mod+Shift+Ctrl+S     { move-column-to-monitor-up; }
-    Mod+Shift+Ctrl+R     { move-column-to-monitor-right; }
+    Mod+Ctrl+Shift+Left  { move-column-to-monitor-left; }
+    Mod+Ctrl+Shift+Down  { move-column-to-monitor-down; }
+    Mod+Ctrl+Shift+Up    { move-column-to-monitor-up; }
+    Mod+Ctrl+Shift+Right { move-column-to-monitor-right; }
+    Mod+Ctrl+Shift+C     { move-column-to-monitor-left; }
+    Mod+Ctrl+Shift+T     { move-column-to-monitor-down; }
+    Mod+Ctrl+Shift+S     { move-column-to-monitor-up; }
+    Mod+Ctrl+Shift+R     { move-column-to-monitor-right; }
 
     Mod+Home      hotkey-overlay-title="Go to start of workspace" { focus-column-first; }
     Mod+End       hotkey-overlay-title="Go to end of workspace" { focus-column-last; }
@@ -504,6 +504,7 @@ binds {
     Mod+Shift+Page_Down { move-workspace-down; }
     Mod+Shift+Page_Up   { move-workspace-up; }
 
+    // Inutile grâce au "or" utilisé plus haut
     Mod+E       hotkey-overlay-title="Moves to workspace below" { focus-workspace-down; }
     Mod+I       hotkey-overlay-title="Goes to workspace above" { focus-workspace-up; }
     Mod+Ctrl+E  hotkey-overlay-title="Sends column to workspace below" { move-column-to-workspace-down; }
@@ -576,7 +577,7 @@ binds {
 
     Mod+agrave { spawn "/home/adrien/.config/myscripts/switch_gamma"; }
 
-    Mod+ecircumflex { spawn "/home/adrien/.config/myscripts/select_theme"; }
+    Mod+Y { spawn "/home/adrien/.config/myscripts/select_theme"; }
 
     Mod+L { toggle-overview; }
 

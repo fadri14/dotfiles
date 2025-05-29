@@ -55637,3 +55637,101 @@ Mar 23 13:20:51 : player: played "No Rival - Egzod, Maestro Chives, Alaina Cross
 2025-05-27T12:08:12 player: played "Kendji Girac - Color Gitano.mp3"
 2025-05-27T16:38:40 player: played "Kendji Girac - Color Gitano.mp3"
 2025-05-27T18:10:22 player: played "Kendji Girac - Color Gitano.mp3"
+2025-05-27T22:23:48 player: played "Kendji Girac - Color Gitano.mp3"
+2025-05-28T12:06:55 player: played "Kendji Girac - Color Gitano.mp3"
+2025-05-28T13:22:52 player: played "Kendji Girac - Color Gitano.mp3"
+2025-05-28T13:25:49 player: played "Alan Walker - Love.mp3"
+2025-05-28T13:29:09 player: played "one-piece-original-soundtrack-difficult.mp3"
+2025-05-28T13:31:13 player: played "Nightcore   Vosai  Young  Wild  Free.mp3"
+2025-05-28T13:34:30 player: played "Davodka La Der Des Der Prod Art Aknid Audio Officiel.mp3"
+2025-05-28T13:37:41 player: played "Enemy - Tommee Profitt, Beacon Light, Sam Tinnesz.mp3"
+2025-05-28T13:39:36 player: played "Fairy Tail - Natsu's Theme.mp3"
+2025-05-28T13:43:18 player: played "Louane - Tourne (Official).mp3"
+2025-05-28T13:46:15 player: played "orelsan-la-pluie-feat-stromae.mp3"
+2025-05-28T13:51:24 player: played "Mount Olympus - Approaching Nirvana.mp3"
+2025-05-28T13:54:52 player: played "Cartoon - On  On (feat. Daniel Levi) [NCS Release].mp3"
+2025-05-28T13:58:59 player: played "neffex-rumors.mp3"
+2025-05-28T14:02:20 player: played "Davodka Fuse De Dtresse Clip Officiel.mp3"
+2025-05-28T14:03:05 player: played "league-of-legends-legends-never-die.mp3"
+2025-05-28T17:09:18 player: played "league-of-legends-legends-never-die.mp3"
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 178.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:33:00 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 178.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:33:00 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-05-28T17:33:00 ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+2025-05-28T17:33:00 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 184.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:33:00 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 184.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:33:00 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-05-28T17:33:00 ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+2025-05-28T17:33:00 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2025-05-28T17:33:00 update: added /Bohnes - Vicious [Official Audio].mp3
+2025-05-28T17:33:00 update: added /Bronski Beat - Smalltown Boy (Official Video).mp3
+2025-05-28T17:33:00 update: added /Chri$tian Gate$ - Dangerous State of Mind (Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Chrissy Costanza - 7 Minutes in Hell ft. VOILÀ (Official Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Connor Kauffman - All Your Friends (Official Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Connor Kauffman - Hostage (Official Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Connor Kauffman - Mercy (Official Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Connor Kauffman - Parasite (Official Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Dean Lewis - How Do I Say Goodbye (Official Video).mp3
+2025-05-28T17:33:00 update: added /down to the river -Mitchel Dae (Official Music Video).mp3
+2025-05-28T17:33:00 update: added /From Ashes To New ft. Chrissy from Against The Current - Barely Breathing (Official Music Video).mp3
+2025-05-28T17:33:00 update: added /Halsey - Without Me (Lyrics).mp3
+2025-05-28T17:33:00 update: added /Hate You For A Lifetime - Connor Kauffman (Official Music Video).mp3
+2025-05-28T17:33:00 update: added /Innocent - Mitchel Dae (Official Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Layto - manic (Lyrics).mp3
+2025-05-28T17:33:00 update: added /Layto - My Head (lyric video).mp3
+2025-05-28T17:33:00 update: added /Nuit Incolore - Dépassé (Official Lyrics Video).mp3
+2025-05-28T17:33:00 update: added /Pierre Garnier - Adieu, nous deux (Lyrics Video).mp3
+2025-05-28T17:33:00 update: added /Pierre GARNIER - Ceux qu'on était (Lyrics).mp3
+2025-05-28T17:33:00 update: added /Pierre Garnier - Chaque seconde (Paroles).mp3
+2025-05-28T17:33:00 update: added /Pierre Garnier - Nous on sait (Paroles).mp3
+2025-05-28T17:33:00 update: added /Shaka Ponk - I'm Picky (Lyrics).mp3
+2025-05-28T17:33:00 update: added /Shakira - Waka Waka (This Time For Africa) (Lyrics).mp3
+2025-05-28T17:33:00 update: added /Stellar - No Angels (Official Lyric Video).mp3
+2025-05-28T17:33:00 update: added /Stileto - Cravin (Lyrics) ft. Kendyle Paige.mp3
+2025-05-28T17:33:00 update: added /Stileto - Dead Or Alive (Lyrics) feat. Madalen Duke.mp3
+2025-05-28T17:33:00 update: added /Twisted - The People's Thieves (LYRICS).mp3
+2025-05-28T17:33:00 update: added /vErGe - Mitchel Dae  ｜ Official Visualizer.mp3
+2025-05-28T17:33:00 update: added /VOILÀ - Therapy (Lyrics).mp3
+2025-05-28T17:33:00 update: added /Voilà - Figure You Out (lyrics).mp3
+2025-05-28T17:33:00 update: added /VOILÀ – Pull the Plug (Lyrics).mp3
+2025-05-28T17:33:00 update: added /WDHTH - Mitchel Dae (Official Music Video).mp3
+2025-05-28T17:33:00 update: added /Without me - fame on fire (lyrics video).mp3
+2025-05-28T17:33:36 player: played "league-of-legends-legends-never-die.mp3"
+2025-05-28T17:36:38 player: played "down to the river -Mitchel Dae (Official Music Video).mp3"
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 178.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:42:31 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 178.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:42:31 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-05-28T17:42:31 ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+2025-05-28T17:42:31 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 184.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:42:31 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 184.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-05-28T17:42:31 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-05-28T17:42:31 ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+2025-05-28T17:42:31 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2025-05-28T18:02:06 player: played "WDHTH - Mitchel Dae (Official Music Video).mp3"
+2025-05-28T20:53:25 player: played "WDHTH - Mitchel Dae (Official Music Video).mp3"
+2025-05-28T22:18:55 player: played "WDHTH - Mitchel Dae (Official Music Video).mp3"
+2025-05-28T22:22:15 player: played "VOILÀ - Therapy (Lyrics).mp3"
+2025-05-28T22:24:42 player: played "vErGe - Mitchel Dae  ｜ Official Visualizer.mp3"
+2025-05-28T22:25:43 player: played "Bohnes - Vicious [Official Audio].mp3"
