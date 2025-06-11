@@ -1,0 +1,137 @@
+theme  = "catppuccin_latte_transparent"
+
+[editor]
+scrolloff = 5
+line-number = "relative"
+cursorline = true
+continue-comments = true
+color-modes = true
+text-width = 80
+bufferline = "multiple"
+true-color = true
+end-of-line-diagnostics = "hint"
+auto-completion = true
+auto-format = true
+gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
+jump-label-alphabet = "etis,curanovpdélbj.'kxgyhàf"
+#auto-pairs = true
+
+[editor.statusline]
+left = ["mode", "spinner", "diagnostics"]
+center = ["file-name", "file-modification-indicator"]
+right = ["position-percentage", "position", "total-line-numbers"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "VISUAL"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[editor.file-picker]
+hidden = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
+[editor.search]
+smart-case = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+character = "╎"
+render = true
+skip-levels = 1
+
+[editor.lsp]
+enable = true
+auto-signature-help=true
+display-messages = true
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+other-lines = "disable"
+
+[keys.normal]
+c = "move_char_left"
+t = "move_visual_line_down"
+s = "move_visual_line_up"
+r = "move_char_right"
+
+h = "change_selection"
+j = "find_till_char"
+k = "select_regex"
+l = "replace"
+
+T = "join_selections"
+S = "keep_selections"
+
+H = "copy_selection_on_next_line"
+J = "till_prev_char"
+K = "split_selection"
+L = "replace_with_yanked"
+
+'à' = ":w"
+'ê' = ":x"
+'À' = ":q"
+'Ê' = ":q!"
+'é' = "move_next_word_start"
+
+',' = "collapse_selection"
+';' = "keep_primary_selection"
+
+C-w = { c = "jump_view_left", t = "jump_view_down", s = "jump_view_up", r = "jump_view_right",  C = "swap_view_right", T = "swap_view_up", S = "swap_view_left", R = "swap_view_down",  j = "transpose_view", k = "hsplit" }
+
+[keys.normal.g]
+c = "goto_line_start"
+t = "move_line_down"
+s = "move_line_up"
+r = "goto_line_end"
+
+h = "goto_window_center"
+j = "goto_window_top"
+k = "goto_first_nonwhitespace"
+l = "goto_reference"
+
+e = "goto_word"
+G = "goto_last_line"
+
+[keys.normal."space"]
+'é' = ":bc"
+
+[keys.select]
+c = "extend_char_left"
+t = "extend_visual_line_down"
+s = "extend_visual_line_up"
+r = "extend_char_right"
+
+h = "change_selection"
+j = "find_till_char"
+k = "select_regex"
+l = "replace"
+
+'é' = "move_next_word_start"
+
+[keys.select.g]
+c = "goto_line_start"
+t = "move_line_down"
+s = "move_line_up"
+r = "goto_line_end"
+
+h = "goto_window_center"
+j = "goto_window_top"
+k = "goto_first_nonwhitespace"
+l = "goto_reference"
+
+e = "goto_word"
+G = "goto_last_line"
+

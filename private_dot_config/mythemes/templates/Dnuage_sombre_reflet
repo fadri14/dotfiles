@@ -1,0 +1,6 @@
+COLOR1=#034fa1
+COLOR3=#425b76
+COLOR2=$(python $HOME/.config/myscripts/hexa_middle.py $(echo $COLOR1 | sed 's/^.//') $(echo $COLOR3 | sed 's/^.//'))
+
+#alacritty
+OPACITETERM=0.6

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [[ "$1" == "" ]]
+then
+    echo "Il faut une url ou un fichier contentant des lien en argument"
+    exit 1
+fi
+
+if [[ -e "$1" ]]
+then
+    urls=$(cat "$1")
+    for url in $urls
+    do
+        yt-dlp -x --audio-format mp3 --add-metadata --metadata-from-title "%(title)s" -o "%(title)s.%(ext)s" "$url" > /dev/null
+    done
+else
+        yt-dlp -x --audio-format mp3 --add-metadata --metadata-from-title "%(title)s" -o "%(title)s.%(ext)s" "$1" > /dev/null
+fi
+

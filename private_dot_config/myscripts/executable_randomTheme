@@ -1,0 +1,30 @@
+#!/bin/bash
+
+if [[ "$1" = "d" ]]
+then
+    theme="black"
+elif [[ "$1" = "c" ]]
+then
+    theme="white"
+else
+    source $HOME/.config/mythemes/$(cat $HOME/.config/myscripts/.actual_theme.txt)
+    theme=$THEMEFOND
+fi
+
+if [[ $theme = "black" ]]
+then
+    list_theme=$(ls $HOME/.config/mythemes | grep D)
+    number=$(ls $HOME/.config/mythemes | grep D | wc -l)
+    index=$((($RANDOM % $number) + 1))
+    new_theme=$(echo $list_theme  | cut -d ' ' -f$index)
+else
+    list_theme=$(ls $HOME/.config/mythemes | grep C)
+    number=$(ls $HOME/.config/mythemes | grep C | wc -l)
+    index=$((($RANDOM % $number) + 1))
+    new_theme=$(echo $list_theme  | cut -d ' ' -f$index)
+fi
+
+#Je dois mettre le chemin entier sinon sway ne le trouve pas avec les raccourcs
+/home/adrien/.config/myscripts/changeTheme "$new_theme"
+
+notify-send -u low "Thème : ${new_theme:1}"

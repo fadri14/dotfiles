@@ -1,0 +1,33 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Nerd Font Hack;
+    font-size: 14px;
+    transition: none;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#clock,
+#pulseaudio,
+#backlight,
+#mpd.disconnected,
+#mpd.stopped,
+#mpd,
+#tray,
+#memory,
+#cpu,
+#battery {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 26px;
+    color: #090c0c;
+    background-image: linear-gradient(144deg, #d03333, #ffbb71);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+}

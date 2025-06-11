@@ -1,0 +1,36 @@
+#!/bin/bash
+
+path_templates="/home/adrien/.config/mythemes/templates/"
+
+choice=$((echo 'Random'; echo 'Light'; echo 'Dark'; ls $path_templates) | fuzzel --dmenu)
+
+if [ "$choice" = "" ]
+then
+  exit 1
+fi
+
+if [ "$choice" = "Random" ]
+then
+  if [ "$(gsettings get org.gnome.desktop.interface color-scheme)" = "'prefer-light'" ]
+  then
+    choice="Light"
+  else
+    choice="Dark"
+  fi
+fi
+
+if [ "$choice" = "Light" ]
+then
+    list_theme=$(ls $path_templates | grep L)
+    number=$(ls $path_templates | grep L | wc -l)
+    index=$((($RANDOM % $number) + 1))
+    choice=$(echo $list_theme  | cut -d ' ' -f$index)
+elif [ "$choice" = "Dark" ]
+then
+    list_theme=$(ls $path_templates | grep D)
+    number=$(ls $path_templates | grep D | wc -l)
+    index=$((($RANDOM % $number) + 1))
+    choice=$(echo $list_theme  | cut -d ' ' -f$index)
+fi
+
+/home/adrien/.config/myscripts/changeTheme2 "$choice"

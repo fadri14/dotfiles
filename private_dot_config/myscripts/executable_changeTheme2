@@ -1,0 +1,136 @@
+#!/bin/bash
+
+new_theme="$1"
+
+if [ "${new_theme:0:1}" = "D" ]
+then
+    # général
+    GLOBALTHEME="prefer-dark"
+    THEMEWRITE=#f1efef
+    color1=#000000
+    color2=#777777
+    color3=#ffffff
+
+    # swww
+    WALLPAPER=dark/${new_theme:1}
+    GIF=false
+
+    # fuzzel
+    THEMEFUZZEL=dark
+
+    # alacritty
+    OPACITETERM=0.7
+    THEMETERM=default_color
+
+    # fish
+    THEMESHELL=mytheme_dark
+
+    # helix
+    THEMEHELIX=onedark_transparent
+
+elif [ "${new_theme:0:1}" = "L" ]
+then
+    # général
+    GLOBALTHEME="prefer-light"
+    THEMEWRITE=#090c0c
+    color1=#000000
+    color2=#777777
+    color3=#ffffff
+
+    # swww
+    WALLPAPER=light/${new_theme:1}
+    GIF=false
+
+    # fuzzel
+    THEMEFUZZEL=light
+
+    # alacritty
+    OPACITETERM=0.8
+    THEMETERM=catppuccin-latte
+
+    # fish
+    THEMESHELL=mytheme_white
+
+    # helix
+    THEMEHELIX=catppuccin_latte_transparent
+
+else
+    notify-send "Erreur de changement de thème"
+    exit 1
+fi
+
+if [[ "$new_theme" != "" ]]
+then
+    if [[ ! -e "$HOME/.config/mythemes/templates/$new_theme" ]]
+    then
+        exit 2
+    fi
+
+    source "$HOME/.config/mythemes/templates/$new_theme"
+else
+    notify-send "Ce thème n'existe pas"
+    exit 3
+fi
+
+# swww
+pkill -x control_swww2
+kill -SIGCONT $(pgrep -x swww-daemon)
+if [[ "$GIF" = "true" ]]
+then
+    swww img -t any $HOME/.config/mythemes/wallpapers/${WALLPAPER}.gif
+    {
+        sleep 5
+        $HOME/.config/myscripts/control_swww2
+    } &
+else
+    swww img -t any $HOME/.config/mythemes/wallpapers/${WALLPAPER}.png
+fi
+
+niri msg action do-screen-transition --delay-ms 100
+
+# général
+gsettings set org.gnome.desktop.interface color-scheme "$GLOBALTHEME"
+
+# nini
+sed -i "172 s/.*/        active-gradient from=\"$COLOR1\" to=\"$COLOR3\" angle=45/" "$HOME/.config/niri/config.kdl"
+sed -i "211 s/.*/        active-gradient from=\"$COLOR1\" to=\"$COLOR3\" angle=45/" "$HOME/.config/niri/config.kdl"
+
+# fuzzel
+sed -i "1 s|.*|include=/home/adrien/.config/fuzzel/$THEMEFUZZEL.ini|" "$HOME/.config/fuzzel/fuzzel.ini"
+
+# waybar
+sed -i "30 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
+sed -i "31 s/.*/    background-image: linear-gradient(144deg, $COLOR1, $COLOR3);/" "$HOME/.config/waybar/style.css"
+
+# alacritty
+sed -i "36 s|.*|import = [\"/home/adrien/.config/alacritty/$THEMETERM.toml\"]|" "$HOME/.config/alacritty/alacritty.toml"
+sed -i "3 s/.*/opacity = $OPACITETERM/" "$HOME/.config/alacritty/alacritty.toml"
+
+# starship
+sed -i "2 s/fg:[^ ]*/fg:$COLOR1)\\\ /" "$HOME/.config/starship.toml"
+sed -i "3 s/fg:[^ ]*/fg:$THEMEWRITE/" "$HOME/.config/starship.toml"
+sed -i "3 s/bg:[^ ]*/bg:$COLOR1)\\\ /" "$HOME/.config/starship.toml"
+sed -i "4 s/fg:[^ ]*/fg:$COLOR1/" "$HOME/.config/starship.toml"
+sed -i "4 s/bg:[^ ]*/bg:$COLOR2)\\\ /" "$HOME/.config/starship.toml"
+sed -i "6 s/fg:[^ ]*/fg:$COLOR2/" "$HOME/.config/starship.toml"
+sed -i "6 s/bg:[^ ]*/bg:$COLOR3)\\\ /" "$HOME/.config/starship.toml"
+sed -i "10 s/fg:[^ ]*/fg:$COLOR3/" "$HOME/.config/starship.toml"
+sed -i "10 s/bg:[^ ]*/bg:$COLOR3)\\\ /" "$HOME/.config/starship.toml"
+sed -i "11 s/fg:[^ ]*/fg:$COLOR3)\\\ /" "$HOME/.config/starship.toml"
+sed -i "15 s/fg:[^ ]*/fg:$COLOR2)\\\ /" "$HOME/.config/starship.toml"
+sed -i "19 s/fg:[^ ]*/fg:$COLOR2)\\\ /" "$HOME/.config/starship.toml"
+sed -i "29 s/.*/style = \"fg:$THEMEWRITE bg:$COLOR2\"/" "$HOME/.config/starship.toml"
+sed -i "34 s/.*/style = \"fg:$THEMEWRITE bg:$COLOR3\"/" "$HOME/.config/starship.toml"
+sed -i "39 s/.*/style = \"fg:$THEMEWRITE bg:$COLOR3\"/" "$HOME/.config/starship.toml"
+sed -i "45 s/.*/style = \"fg:$THEMEWRITE bg:$COLOR2\"/" "$HOME/.config/starship.toml"
+sed -i "50 s/fg:[^ ]*/fg:$THEMEWRITE/" "$HOME/.config/starship.toml"
+sed -i "50 s/bg:[^ ]*/bg:$COLOR2)'/" "$HOME/.config/starship.toml"
+sed -i "51 s/fg:[^ ]*/fg:$THEMEWRITE/" "$HOME/.config/starship.toml"
+sed -i "51 s/bg:[^ ]*/bg:$COLOR2)'/" "$HOME/.config/starship.toml"
+sed -i "54 s/.*/style = \"fg:$THEMEWRITE bg:$COLOR2\"/" "$HOME/.config/starship.toml"
+
+# fish
+echo "source ~/.config/fish/themes/$THEMESHELL.fish" > $HOME/.config/fish/conf.d/theme.fish
+
+# helix
+sed -i "1 s/.*/theme  = \"$THEMEHELIX\"/" "$HOME/.config/helix/config.toml"

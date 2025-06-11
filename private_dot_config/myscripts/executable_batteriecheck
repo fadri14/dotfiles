@@ -1,0 +1,53 @@
+#!/bin/bash
+
+batterie_state="0"
+
+while true
+do
+    level=$(acpi -b | cut -d ',' -f 2 | cut -d ' ' -f 2 | tr -d '%')
+    if [[ "$(acpi -a | cut -f 3 -d ' ')" = "off-line" ]]
+    then
+        if [[ "$level" -le 10 ]] # && [[ $batterie_state != "3" ]] # Retirer ce commentaire pour ne pas spammer si c'est en dessous de 5%
+        then
+            notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur !!!!!"
+            batterie_state="3"
+        elif [[ "$level" -le 20 ]]
+        then
+            if [[ $batterie_state != "2" ]]
+            then
+                notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur !!!"
+                batterie_state="2"
+            fi
+        elif [[ "$level" -le 30 ]]
+        then
+            if [[ $batterie_state != "1" ]]
+            then
+                notify-send -u critical "Batterie faible" "Veuillez brancher le chargeur"
+                batterie_state="1"
+            fi
+        else
+            batterie_state="0"
+        fi
+
+        # time_pause=$(( $level - 20 ))
+
+        # if [[ ! $time_pause -le 0 ]]
+        # then
+        #     time_pause=$(( $time_pause * 90 ))
+        #     eval "sleep ${time_pause}s"
+        # else
+        #     sleep 60s
+        # fi
+        sleep 60s
+    else
+        if [[ "$level" = "100" && "$batterie_state" == "0" ]]
+        then
+            notify-send "Le pc est complétement chargé"
+            batterie_state="-1"
+        fi
+
+        # sleep 30m
+        sleep 60s
+    fi
+done
+

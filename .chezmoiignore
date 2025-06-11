@@ -1,0 +1,15 @@
+{{- if ne .chezmoi.hostname "arch-niri" }}
+.config/fuzzel
+.config/gammastep
+.config/gtklock
+.config/mako
+.config/mimeapps.list
+.config/mpd
+.config/myscripts
+.config/mythemes
+.config/niri
+.config/ttdl
+.config/waybar
+.config/wlogout
+.config/xournalpp
+{{- end }}

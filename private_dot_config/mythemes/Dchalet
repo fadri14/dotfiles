@@ -1,0 +1,29 @@
+#général
+THEMEFOND=black
+THEMEWRITE=#f1efef
+THEMEGTK=Adwaita:dark
+
+COLOR1=#2c7a6c
+COLOR3=#2f6794
+COLOR2=$(python $HOME/.config/myscripts/hexa_middle.py $(echo $COLOR1 | sed 's/^.//') $(echo $COLOR3 | sed 's/^.//'))
+
+#waybar
+BUTTONFOCUS=orange
+BUTTONHOVER=red
+COLORMODE=white
+
+#alacritty
+OPACITETERM=0.7
+THEMETERM=default_color
+
+#sway
+WALLPAPER="$(basename "${BASH_SOURCE[0]}").png"
+
+#rofi
+BACKGROUND0=#212121F2
+BACKGROUND1=#2A2A2A
+BACKGROUND3=${COLOR2}F2
+FOREGROUND0=#E6E6E6
+
+#helix
+THEMEHELIX=onedark_transparent

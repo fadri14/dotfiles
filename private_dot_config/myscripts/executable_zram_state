@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [[ $(whoami) != "root" ]]
+then
+    echo "Il faut être root"
+    exit 1
+fi
+
+if [[ "$1" = "start" ]]
+then
+    echo 0 > /sys/module/zswap/parameters/enabled
+    modprobe zram
+    swapoff --all
+    zramctl /dev/zram0 --algorithm zstd --size 8G
+    mkswap -U clear /dev/zram0
+    swapon --priority 100 /dev/zram0
+elif [[ "$1" = "stop" ]]
+then
+    swapoff /dev/zram0
+    modprobe -r zram
+    echo 1 > /sys/module/zswap/parameters/enabled
+fi
+
