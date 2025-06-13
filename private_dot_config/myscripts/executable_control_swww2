@@ -2,6 +2,15 @@
 
 flag=0
 
+if [[ "$1" = "check" ]]
+then
+	wallpaper=$(basename $(swww query | cut -d ' ' -f8))
+	if [[ ! "$wallpaper" =~ ".gif" ]]
+	then
+		exit
+	fi
+fi
+
 while [ 1 ]
 do
 	apps="$(niri msg focused-window)"
