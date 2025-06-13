@@ -99,8 +99,8 @@ sed -i "211 s/.*/        active-gradient from=\"$COLOR1\" to=\"$COLOR3\" angle=4
 sed -i "1 s|.*|include=/home/adrien/.config/fuzzel/$THEMEFUZZEL.ini|" "$HOME/.config/fuzzel/fuzzel.ini"
 
 # waybar
-sed -i "30 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
-sed -i "31 s/.*/    background-image: linear-gradient(144deg, $COLOR1, $COLOR3);/" "$HOME/.config/waybar/style.css"
+sed -i "27 s/.*/    color: $THEMEWRITE;/" "$HOME/.config/waybar/style.css"
+sed -i "28 s/.*/    background-image: linear-gradient(144deg, $COLOR1, $COLOR3);/" "$HOME/.config/waybar/style.css"
 
 # alacritty
 sed -i "36 s|.*|import = [\"/home/adrien/.config/alacritty/$THEMETERM.toml\"]|" "$HOME/.config/alacritty/alacritty.toml"
