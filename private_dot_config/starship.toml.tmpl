@@ -1,0 +1,56 @@
+format = """
+[░▒▓](fg:{{ .color1 }})\
+[    ](fg:{{ .write_theme }} bg:{{ .color1 }})\
+[](fg:{{ .color1 }} bg:{{ .color2 }})\
+$directory\
+[](fg:{{ .color2 }} bg:{{ .color3 }})\
+$git_branch\
+$git_status\
+$git_metrics\
+[](fg:{{ .color3 }} bg:{{ .color3 }})\
+[ ](fg:{{ .color3 }})\
+"""
+
+right_format = """
+[](fg:{{ .color2 }})\
+$time\
+$cmd_duration\
+$character\
+[▓▒░](fg:{{ .color2 }})\
+"""
+
+add_newline = false
+
+[directory]
+home_symbol = " "
+truncation_symbol = "…/"
+truncate_to_repo = false
+read_only = "󰒃"
+style = "fg:{{ .write_theme }} bg:{{ .color2 }}"
+format = "[ $path $read_only ]($style)"
+
+[git_branch]
+symbol = ""
+style = "fg:{{ .write_theme }} bg:{{ .color3 }}"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+untracked = "±"
+style = "fg:{{ .write_theme }} bg:{{ .color3 }}"
+format = '[($all_status$ahead_behind )]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "fg:{{ .write_theme }} bg:{{ .color2 }}"
+format = '[$time ]($style)'
+
+[character]
+format = "$symbol"
+success_symbol = '[ ](fg:{{ .write_theme }} bg:{{ .color2 }})' 
+error_symbol = '[ ](fg:{{ .write_theme }} bg:{{ .color2 }})'
+
+[cmd_duration]
+style = "fg:{{ .write_theme }} bg:{{ .color2 }}"
+format = "[$duration]($style)"
+

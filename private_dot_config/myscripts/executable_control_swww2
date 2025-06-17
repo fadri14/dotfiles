@@ -4,7 +4,7 @@ flag=0
 
 if [[ "$1" = "check" ]]
 then
-	sleep 10
+	sleep 5
 	wallpaper=$(basename $(swww query | cut -d ' ' -f8))
 	if [[ ! "$wallpaper" =~ ".gif" ]]
 	then
