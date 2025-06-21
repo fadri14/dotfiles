@@ -1,9 +1,6 @@
+#global color
 COLOR1=#c984e5
 COLOR3=#9cd7fc
-COLOR2=$(python $HOME/.config/myscripts/hexa_middle.py $(echo $COLOR1 | sed 's/^.//') $(echo $COLOR3 | sed 's/^.//'))
 
 #alacritty
 OPACITETERM=0.6
-
-#swww
-GIF=true

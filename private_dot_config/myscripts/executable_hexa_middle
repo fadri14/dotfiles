@@ -1,3 +1,4 @@
+#!/bin/python
 import sys
 
 def interpolate_color(color1, color2, ratio=0.5):
@@ -13,14 +14,14 @@ def interpolate_color(color1, color2, ratio=0.5):
 
     interpolated_color = "#{:02X}{:02X}{:02X}".format(r, g, b)
 
-    return interpolated_color
+    return interpolated_color.lower()
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Utilisation : python interpolate_color.py <couleur1> <couleur2> [ratio]")
     else:
-        color1 = sys.argv[1]
-        color2 = sys.argv[2]
+        color1 = sys.argv[1][2:]
+        color2 = sys.argv[2][2:]
         if len(sys.argv) > 3:
             ratio = float(sys.argv[3])
         else:

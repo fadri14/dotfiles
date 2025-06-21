@@ -33,4 +33,4 @@ then
     choice=$(echo $list_theme  | cut -d ' ' -f$index)
 fi
 
-/home/adrien/.config/myscripts/changeTheme2 "$choice"
+/home/adrien/.config/myscripts/changeTheme "$choice"
