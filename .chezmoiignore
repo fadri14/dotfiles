@@ -13,4 +13,6 @@
 .config/waybar
 .config/wlogout
 .config/xournalpp
+.config/discord
+.gitconfig
 {{- end }}
