@@ -28,4 +28,13 @@ if status is-interactive
         end
         rm -f -- "$tmp"
     end
+    {{ if ne .chezmoi.hostname "arch-niri" }}
+    function changeTheme
+        if cat ~/.config/chezmoi/chezmoi.toml | grep light > /dev/null
+            sed -i "s/light/dark/g" ~/.config/chezmoi/chezmoi.toml
+        else
+            sed -i "s/dark/light/g" ~/.config/chezmoi/chezmoi.toml
+        end
+        chezmoi apply --force
+    end{{ end }}
 end

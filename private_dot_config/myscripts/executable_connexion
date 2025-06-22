@@ -4,5 +4,5 @@ choice=$(ls .password-store | sed 's/\.gpg//' | fuzzel --dmenu)
 
 if [ "$choice" != "" ]
 then
-  pass "$choice" | wtype -
+  pass "$choice" | head -n 1 | wtype -
 fi
