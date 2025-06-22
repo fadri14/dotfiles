@@ -1,3 +1,4 @@
+{{ if eq .chezmoi.hostname "arch-niri" }}
 alias o "xdg-open 2> /dev/null"
 alias mybackup "save_freetube b ; echo '' && backup b"
 alias sh "history | grep"
@@ -14,3 +15,12 @@ alias i helix
 alias t "ttdl --human"
 alias ci "chezmoi edit"
 alias update "arch-update -l > ~/.arch_update_log.txt ; arch-update"
+{{ else }}
+alias sh "history | grep"
+alias gg "git pull"
+alias gs "git status"
+alias ea "eza -1 --icons"
+alias eal "eza -lh --icons"
+alias i helix
+alias ci "chezmoi edit"
+{{ end }}
