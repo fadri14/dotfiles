@@ -1,0 +1,14 @@
+[user]
+	email = fadri1@proton.me
+	name = fadri14
+[core]
+	editor = nvim
+[merge]
+	tool = nvim
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
