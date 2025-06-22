@@ -13,4 +13,4 @@ alias eal "eza -lh --icons"
 alias i helix
 alias t "ttdl --human"
 alias ci "chezmoi edit"
-alias arch-update "arch-update -l > ~/.arch_update_log.txt ; arch-update"
+alias update "arch-update -l > ~/.arch_update_log.txt ; arch-update"

@@ -1,4 +1,5 @@
 {{- if ne .chezmoi.hostname "arch-niri" }}
+.config/alacritty
 .config/fuzzel
 .config/gammastep
 .config/gtklock
