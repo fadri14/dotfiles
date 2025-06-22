@@ -3,7 +3,7 @@ if status is-interactive
 
     export EDITOR=/usr/bin/helix
     export PATH="$HOME/.config/myscripts/:$PATH"
-    export PATH="$PATH:$HOME/.cargo/bin/"
+    {{ if eq .chezmoi.hostname "arch-niri" }}export PATH="$PATH:$HOME/.cargo/bin/"
     export DIFFPROG=meld
 
     bind \eh 'wtype !!\n'
@@ -16,7 +16,7 @@ if status is-interactive
     if test $(cat ~/.ssh/state_connect) = yes
         ssh_agent_init
     end
-
+    {{ end }}
     starship init fish | source
     zoxide init --cmd e fish | source
 
