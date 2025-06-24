@@ -12,7 +12,8 @@
     "modules-right": ["memory", "cpu", "battery"],
 
     "clock": {
-        "format": "{:%H:%M   - %d/%m }",
+        "format": "{:%H:%M   | %a | %d/%m }",
+        //"format": "{:%H:%M   - %d/%m }",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
                     "mode"          : "year",
