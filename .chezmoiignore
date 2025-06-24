@@ -17,4 +17,5 @@ README.md
 .config/xournalpp
 .config/discord
 .gitconfig
+.gnupg
 {{- end }}
