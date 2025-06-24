@@ -2,8 +2,8 @@ if status is-interactive
     set -g fish_greeting ''
 
     export EDITOR=/usr/bin/helix
-    {{ if eq .chezmoi.hostname "arch-niri" }}export PATH="$PATH:$HOME/.cargo/bin/"
-    export PATH="$HOME/.config/myscripts/:$PATH"
+    export PATH="$PATH:$HOME/.cargo/bin/"
+    {{ if eq .chezmoi.hostname "arch-niri" }}export PATH="$HOME/.config/myscripts/:$PATH"
     export DIFFPROG=meld
 
     bind \eh 'wtype !!\n'
