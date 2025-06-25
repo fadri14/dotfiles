@@ -511,13 +511,6 @@ binds {
     Mod+Shift+Page_Down { move-workspace-down; }
     Mod+Shift+Page_Up   { move-workspace-up; }
 
-    // Mod+E       hotkey-overlay-title="Moves to workspace below" { focus-workspace-down; }
-    // Mod+I       hotkey-overlay-title="Goes to workspace above" { focus-workspace-up; }
-    // Mod+Ctrl+E  hotkey-overlay-title="Sends column to workspace below" { move-column-to-workspace-down; }
-    // Mod+Ctrl+I  hotkey-overlay-title="Sends column to workspace above" { move-column-to-workspace-up; }
-    // Mod+Shift+E hotkey-overlay-title="Sends this workspace downwards" { move-workspace-down; }
-    // Mod+Shift+I hotkey-overlay-title="Sends this workspace upwards" { move-workspace-up; }
-
     Mod+WheelScrollDown      cooldown-ms=150 { focus-workspace-down; }
     Mod+WheelScrollUp        cooldown-ms=150 { focus-workspace-up; }
     Mod+Ctrl+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
@@ -574,10 +567,12 @@ binds {
 
     Mod+Tab hotkey-overlay-title="Navigate between currently open windows" { spawn "/home/adrien/.config/myscripts/focus_window"; }
 
-    Mod+egrave hotkey-overlay-title="Search the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
-    Mod+Shift+egrave hotkey-overlay-title="Delete an item from the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
+    Mod+a hotkey-overlay-title="Search the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
+    Mod+Shift+a hotkey-overlay-title="Delete an item from the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
 
     Mod+G { spawn "alacritty" "-e" "glances"; }
+
+    Mod+egrave { spawn "alacritty" "-e" "time_app_tracker" "-t"; }
 
     Mod+space hotkey-overlay-title="Switch between azerty and bepo keyboards" { spawn "/home/adrien/.config/myscripts/changeKeyboard"; }
 
