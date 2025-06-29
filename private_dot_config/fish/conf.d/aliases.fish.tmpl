@@ -24,4 +24,5 @@ alias ci "chezmoi edit"
 alias d docker
 alias dcu "docker compose up -d"
 alias dcd "docker compose down"
+alias dps 'docker ps -a --format "table {{.Image}}\t{{.Names}}\t{{.Status}}"'
 {{ end }}
