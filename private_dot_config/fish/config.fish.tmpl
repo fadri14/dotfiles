@@ -16,6 +16,8 @@ if status is-interactive
     if test $(cat ~/.ssh/state_connect) = yes
         ssh_agent_init
     end
+    {{ else }}
+    export PATH="$PATH:$HOME/go/bin/"
     {{ end }}
     starship init fish | source
     zoxide init --cmd e fish | source
