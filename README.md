@@ -1,4 +1,5 @@
 # Installation
+
 ```
 mkdir ~/.config/chezmoi
 cat > ~/.config/chezmoi/chezmoi.toml << eof
