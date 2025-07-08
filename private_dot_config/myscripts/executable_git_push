@@ -1,13 +1,5 @@
 #!/usr/bin/env fish
 
-source ~/.config/fish/config.fish
-
-# Vérifie si ssh-agent est actif
-if not pgrep ssh-agent > /dev/null
-    echo "Attention ssh-agent n'est pas activé"
-    exit 1
-end
-
 # Vérifie qu'il y a au moins deux arguments (fichiers et message de commit)
 if test (count $argv) -lt 2
     echo "Utilisation : gp <fichier1> <fichier2> ... \"message de commit\""

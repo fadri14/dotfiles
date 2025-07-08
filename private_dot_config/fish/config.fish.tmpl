@@ -12,15 +12,15 @@ if status is-interactive
     bind \en 'wtype -M alt -k Right -m alt'
     bind \ew backward-kill-path-component
     bind \eg 'wtype " | grep "'
-
-    if test $(cat ~/.ssh/state_connect) = yes
-        ssh_agent_init
-    end
     {{ else }}
     export PATH="$PATH:$HOME/go/bin/"
     {{ end }}
     starship init fish | source
     zoxide init --cmd e fish | source
+
+    eval (ssh-agent -c)
+    ssh-add ~/.ssh/github
+    clear
 
     function y
         set tmp (mktemp -t "yazi-cwd.XXXXXX")
