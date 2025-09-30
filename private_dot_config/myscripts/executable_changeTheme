@@ -19,6 +19,9 @@ then
     # swww
     WALLPAPER=dark/${new_theme:1}
 
+    # foot
+    FOOT_COLOR=2
+
     COLOR1="#000000"
     COLOR3="#000000"
 
@@ -31,6 +34,9 @@ then
 
     # swww
     WALLPAPER=light/${new_theme:1}
+
+    # foot
+    FOOT_COLOR=1
 
     COLOR1="#ffffff"
     COLOR3="#ffffff"
@@ -52,7 +58,8 @@ then
       color1 = \"$COLOR1\"
       color2 = \"$COLOR2\"
       color3 = \"$COLOR3\"
-      alacritty_opacity = \"$OPACITETERM\"" > "$HOME/.config/chezmoi/chezmoi.toml"
+      foot_opacity = \"$OPACITETERM\"
+      foot_color = \"$FOOT_COLOR\"" > "$HOME/.config/chezmoi/chezmoi.toml"
 
     pkill -x control_swww
     kill -SIGCONT $(pgrep -x swww-daemon)
@@ -71,6 +78,7 @@ then
     niri msg action do-screen-transition --delay-ms 300
 
     gsettings set org.gnome.desktop.interface color-scheme "$GTHEME"
+    pkill -u "$USER" --signal="SIGUSR$FOOT_COLOR" ^foot
     chezmoi apply --force
 
     exit 0

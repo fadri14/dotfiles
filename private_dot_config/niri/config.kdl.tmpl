@@ -154,8 +154,8 @@ layout {
         proportion 0.66667
     }
 
-    // default-column-width { proportion 0.5; }
-    default-column-width {}
+    default-column-width { proportion 0.5; }
+    // default-column-width {}
 
     preset-window-heights {
         proportion 0.33333
@@ -560,7 +560,7 @@ binds {
 
     Mod+Shift+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
-    Mod+Return       hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
+    Mod+Return       hotkey-overlay-title="Open a Terminal: foot" { spawn "fooclient"; }
     Mod+E       hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
 
     Mod+X { spawn "/home/adrien/.config/myscripts/connexion"; }
@@ -619,3 +619,4 @@ spawn-at-startup "/home/adrien/.config/myscripts/batteriecheck"
 spawn-at-startup "/home/adrien/.config/myscripts/control_swww" "check"
 spawn-at-startup "sh" "-c" "echo no > /home/adrien/.ssh/state_connect"
 spawn-at-startup "sh" "-c" "wl-paste --watch cliphist store"
+spawn-at-startup "sh" "-c" "foot --server"

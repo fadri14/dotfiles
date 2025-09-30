@@ -13,6 +13,7 @@ alias eal "eza -lh --icons"
 alias i helix
 alias t "ttdl --human"
 alias ci "chezmoi edit"
+alias update "arch-update -l > ~/.log_update ; arch-update"
 [[ else ]]alias sh "history | grep"
 alias gg "git pull"
 alias gs "git status"
@@ -25,3 +26,4 @@ alias dcu "docker compose up -d"
 alias dcd "docker compose down"
 alias dps 'docker ps -a --format "table {{.Image}}\t{{.Names}}\t{{.Status}}"'
 [[ end ]]
+
