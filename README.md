@@ -8,7 +8,8 @@ cat > ~/.config/chezmoi/chezmoi.toml << eof
       color1 = "#0d54b2"
       color2 = "#287def"
       color3 = "#66a7fc"
-      alacritty_opacity = "1"
+      foot_opacity = "1"
+      foot_color = "2"
 eof
 chezmoi init --apply fadri14
 ```
