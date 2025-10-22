@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+INPUT="$(wl-paste -n)"
+FROM_LANG="$(trans -b -id "$INPUT")"
+
+if [[ "$FROM_LANG" == "fr" ]]; then
+    trans -b fr:en "$INPUT" | wl-copy -n
+elif [[ "$FROM_LANG" == "en" ]]; then
+    trans -b en:fr "$INPUT" | wl-copy -n
+else
+    notify-send "Langue non prise en charge !"
+fi

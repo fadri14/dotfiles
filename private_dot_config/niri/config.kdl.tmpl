@@ -170,7 +170,7 @@ layout {
         // active-color "#7fc8ff"
         // inactive-color "#505050"
         // urgent-color "#9b0000"
-        active-gradient from="{{ .color1 }}" to="{{ .color3 }}" angle=45
+        active-gradient from="#5cb4f9" to="#d864a1" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -209,7 +209,7 @@ layout {
         // active-color "red"
         // inactive-color "gray"
         // urgent-color "blue"
-        active-gradient from="{{ .color1 }}" to="{{ .color3 }}" angle=45
+        active-gradient from="#5cb4f9" to="#d864a1" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         urgent-gradient from="#800" to="#a33" angle=45
     }
@@ -269,7 +269,7 @@ hotkey-overlay {
 animations {
     // off
 
-    slowdown 2.0
+    slowdown 1.0
 
     /-window-open {
         // off
@@ -561,15 +561,15 @@ binds {
 
     Mod+Shift+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
-    Mod+Return       hotkey-overlay-title="Open a Terminal: foot" { spawn "fooclient"; }
+    Mod+Return       hotkey-overlay-title="Open a Terminal: foot" { spawn "footclient"; }
     Mod+E       hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
 
     Mod+X { spawn "/home/adrien/.config/myscripts/connexion"; }
 
     Mod+Tab hotkey-overlay-title="Navigate between currently open windows" { spawn "/home/adrien/.config/myscripts/focus_window"; }
 
-    Mod+a hotkey-overlay-title="Search the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
-    Mod+Shift+a hotkey-overlay-title="Delete an item from the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
+    Mod+A hotkey-overlay-title="Search the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
+    Mod+Shift+A hotkey-overlay-title="Delete an item from the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
 
     Mod+G { spawn "alacritty" "-e" "glances"; }
 
@@ -581,7 +581,9 @@ binds {
 
     Mod+Y { spawn "/home/adrien/.config/myscripts/select_theme"; }
 
-    Mod+m { spawn "sh" "-c" "wl-mirror -F --fullscreen eDP-1"; }
+    Mod+M { spawn "sh" "-c" "wl-mirror -F --fullscreen eDP-1"; }
+
+    Mod+I { spawn "/home/adrien/.config/myscripts/translate"; }
 
     Mod+L { toggle-overview; }
 
