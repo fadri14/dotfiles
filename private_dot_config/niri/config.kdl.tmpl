@@ -583,7 +583,9 @@ binds {
 
     Mod+M { spawn "sh" "-c" "wl-mirror -F --fullscreen eDP-1"; }
 
-    Mod+I { spawn "/home/adrien/.config/myscripts/translate"; }
+    Mod+I { spawn "/home/adrien/.config/myscripts/translate" "copy"; }
+
+    Mod+Shift+I { spawn "/home/adrien/.config/myscripts/translate" "notif"; }
 
     Mod+L { toggle-overview; }
 

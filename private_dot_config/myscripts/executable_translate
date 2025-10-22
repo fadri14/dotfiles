@@ -1,12 +1,42 @@
 #!/usr/bin/env bash
 
 INPUT="$(wl-paste -n)"
-FROM_LANG="$(trans -b -id "$INPUT")"
+FROM_LANG="$(trans -b -id "$INPUT" | tr -d ' ')"
 
-if [[ "$FROM_LANG" == "fr" ]]; then
-    trans -b fr:en "$INPUT" | wl-copy -n
-elif [[ "$FROM_LANG" == "en" ]]; then
-    trans -b en:fr "$INPUT" | wl-copy -n
-else
-    notify-send "Langue non prise en charge !"
-fi
+translate_and_copy() {
+    if [[ "$FROM_LANG" == "fr" ]]; then
+        trans -b fr:en "$INPUT" | wl-copy -n
+    elif [[ "$FROM_LANG" == "en" ]]; then
+        trans -b en:fr "$INPUT" | wl-copy -n
+    else
+        notify-send "Langue non prise en charge : $FROM_LANG"
+        exit 1
+    fi
+}
+
+translate_and_notify() {
+    local input_formatted
+    input_formatted="$(echo "$INPUT" | tr '\n' ' ')"
+
+    if [[ "$FROM_LANG" == "fr" ]]; then
+        notify-send -a Translate "$(trans -b fr:en "$input_formatted")"
+    elif [[ "$FROM_LANG" == "en" ]]; then
+        notify-send -a Translate "$(trans -b en:fr "$input_formatted")"
+    else
+        notify-send "Langue non prise en charge : $FROM_LANG"
+        exit 1
+    fi
+}
+
+case "$1" in
+    "copy")
+        translate_and_copy
+        ;;
+    "notif")
+        translate_and_notify
+        ;;
+    *)
+        echo "Usage: $0 {copy|notif}"
+        exit 1
+        ;;
+esac

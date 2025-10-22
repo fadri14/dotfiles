@@ -37,3 +37,8 @@ default-timeout=3000
 [urgency=high]
 border-color=#eb3143
 default-timeout=10000
+
+[app-name=Translate]
+width=500
+height=1000
+default-timeout=0
