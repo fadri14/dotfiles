@@ -571,9 +571,9 @@ binds {
     Mod+A hotkey-overlay-title="Search the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
     Mod+Shift+A hotkey-overlay-title="Delete an item from the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
 
-    Mod+G { spawn "alacritty" "-e" "glances"; }
+    Mod+G { spawn "footclient" "glances"; }
 
-    Mod+egrave { spawn "alacritty" "-e" "time_app_tracker" "-t"; }
+    Mod+egrave { spawn "footclient" "time_app_tracker" "-t"; }
 
     Mod+space hotkey-overlay-title="Switch between azerty and bepo keyboards" { spawn "/home/adrien/.config/myscripts/changeKeyboard"; }
 
