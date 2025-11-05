@@ -568,12 +568,12 @@ binds {
 
     Mod+Tab hotkey-overlay-title="Navigate between currently open windows" { spawn "/home/adrien/.config/myscripts/focus_window"; }
 
-    Mod+A hotkey-overlay-title="Search the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
-    Mod+Shift+A hotkey-overlay-title="Delete an item from the history of copied items" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
+    Mod+A hotkey-overlay-title="Search the history of copied items" { spawn-sh "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
+    Mod+Shift+A hotkey-overlay-title="Delete an item from the history of copied items" { spawn-sh "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
 
-    Mod+G { spawn "footclient" "glances"; }
+    Mod+G { spawn-sh "footclient glances"; }
 
-    Mod+egrave { spawn "footclient" "time_app_tracker" "-t"; }
+    Mod+egrave { spawn-sh "footclient time_app_tracker -t"; }
 
     Mod+space hotkey-overlay-title="Switch between azerty and bepo keyboards" { spawn "/home/adrien/.config/myscripts/changeKeyboard"; }
 
@@ -581,13 +581,13 @@ binds {
 
     Mod+Y { spawn "/home/adrien/.config/myscripts/select_theme"; }
 
-    Mod+M { spawn "sh" "-c" "wl-mirror -F --fullscreen eDP-1"; }
+    Mod+M { spawn-sh "wl-mirror -F --fullscreen eDP-1"; }
 
-    Mod+U { spawn "sh" "-c" "makoctl dismiss -a"; }
+    Mod+U { spawn-sh "makoctl dismiss -a"; }
 
-    Mod+I { spawn "/home/adrien/.config/myscripts/translate" "copy"; }
+    Mod+I { spawn-sh "/home/adrien/.config/myscripts/translate copy"; }
 
-    Mod+Shift+I { spawn "/home/adrien/.config/myscripts/translate" "notif"; }
+    Mod+Shift+I { spawn-sh "/home/adrien/.config/myscripts/translate notif"; }
 
     Mod+L { toggle-overview; }
 
@@ -598,16 +598,16 @@ binds {
     Mod+P hotkey-overlay-title="Display power menu" { spawn "wlogout"; }
     Mod+Shift+P hotkey-overlay-title="Switches off current screen" { power-off-monitors; }
 
-    Shift+XF86AudioLowerVolume  allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-    XF86AudioMute               allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
-    XF86AudioRaiseVolume        allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.025+"; }
-    Shift+XF86AudioRaiseVolume  allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-    XF86AudioLowerVolume        allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.025-"; }
+    Shift+XF86AudioLowerVolume  allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
+    XF86AudioMute               allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
+    XF86AudioRaiseVolume        allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.025+"; }
+    Shift+XF86AudioRaiseVolume  allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
+    XF86AudioLowerVolume        allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.025-"; }
 
-    XF86MonBrightnessDown       allow-when-locked=true { spawn "sh" "-c" "light -U ${STEP:-2.5}" ; }
-    Shift+XF86MonBrightnessDown allow-when-locked=true { spawn "sh" "-c" "light -U ${STEP:-10}" ; }
-    XF86MonBrightnessUp         allow-when-locked=true { spawn "sh" "-c" "light -A ${STEP:-2.5}" ; }
-    Shift+XF86MonBrightnessUp   allow-when-locked=true { spawn "sh" "-c" "light -A ${STEP:-10}" ; }
+    XF86MonBrightnessDown       allow-when-locked=true { spawn-sh "light -U ${STEP:-2.5}" ; }
+    Shift+XF86MonBrightnessDown allow-when-locked=true { spawn-sh "light -U ${STEP:-10}" ; }
+    XF86MonBrightnessUp         allow-when-locked=true { spawn-sh "light -A ${STEP:-2.5}" ; }
+    Shift+XF86MonBrightnessUp   allow-when-locked=true { spawn-sh "light -A ${STEP:-10}" ; }
 
     Print { screenshot; }
     Ctrl+Print hotkey-overlay-title="Take a screenshot of the screen" { screenshot-screen  write-to-disk=false; }
@@ -620,10 +620,10 @@ spawn-at-startup "waybar"
 spawn-at-startup "swww-daemon"
 spawn-at-startup "plasma-polkit-agent"
 spawn-at-startup "xwayland-satellite" ":12"
-spawn-at-startup "sh" "-c" "bluetoothctl power off"
+spawn-sh-at-startup "bluetoothctl power off"
 spawn-at-startup "/home/adrien/.config/myscripts/trashTmp"
 spawn-at-startup "/home/adrien/.config/myscripts/batteriecheck"
-spawn-at-startup "/home/adrien/.config/myscripts/control_swww" "check"
-spawn-at-startup "sh" "-c" "echo no > /home/adrien/.ssh/state_connect"
-spawn-at-startup "sh" "-c" "wl-paste --watch cliphist store"
-spawn-at-startup "sh" "-c" "foot --server"
+spawn-sh-at-startup "/home/adrien/.config/myscripts/control_swww check"
+spawn-sh-at-startup "echo no > /home/adrien/.ssh/state_connect"
+spawn-sh-at-startup "wl-paste --watch cliphist store"
+spawn-sh-at-startup "foot --server"
