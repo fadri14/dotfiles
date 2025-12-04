@@ -2,9 +2,9 @@
 	email = fadri1@proton.me
 	name = fadri14
 [core]
-	editor = nvim
+	editor = helix
 [merge]
-	tool = nvim
+	tool = helix
 	conflictstyle = diff3
 [mergetool]
 	prompt = false
