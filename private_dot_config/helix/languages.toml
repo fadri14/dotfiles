@@ -9,6 +9,7 @@ diagnostic-severity = "warning"
 command = "rust-analyzer"
 
 [language-server.rust-analyzer.config]
+rust-analyzer.cargo.allTargets = false
 inlayHints.bindingModeHints.enable = false
 inlayHints.closingBraceHints.minLines = 10
 inlayHints.closureReturnTypeHints.enable = "with_block"
