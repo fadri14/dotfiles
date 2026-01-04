@@ -561,8 +561,6 @@ binds {
 
     Mod+X { spawn "/home/adrien/.config/myscripts/connexion"; }
 
-    Mod+Tab hotkey-overlay-title="Navigate between currently open windows" { spawn "/home/adrien/.config/myscripts/focus_window"; }
-
     Mod+A hotkey-overlay-title="Search the history of copied items" { spawn-sh "cliphist list | fuzzel --dmenu -w 75 | cliphist decode | wtype -"; }
     Mod+Shift+A hotkey-overlay-title="Delete an item from the history of copied items" { spawn-sh "cliphist list | fuzzel --dmenu -w 70 | cliphist delete"; }
 
