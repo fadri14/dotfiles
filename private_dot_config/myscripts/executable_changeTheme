@@ -79,6 +79,7 @@ then
 
     gsettings set org.gnome.desktop.interface color-scheme "$GTHEME"
     pkill -u "$USER" --signal="SIGUSR$FOOT_COLOR" ^foot
+    fish -c "set -U my_theme $GLOBAL_THEME"
     chezmoi apply --force
 
     exit 0

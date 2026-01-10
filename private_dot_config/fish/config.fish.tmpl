@@ -30,6 +30,8 @@ if status is-interactive
         end
         rm -f -- "$tmp"
     end
+
+    fish_config theme choose {{ .global_theme }}
     {{ if ne .chezmoi.hostname "arch-niri" }}
     function changeTheme
         if cat ~/.config/chezmoi/chezmoi.toml | grep light > /dev/null
@@ -39,4 +41,8 @@ if status is-interactive
         end
         chezmoi apply --force
     end{{ end }}
+end
+
+function apply-my-theme --on-variable=my_theme
+    fish_config theme choose $my_theme
 end
