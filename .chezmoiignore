@@ -1,21 +1,11 @@
 README.md
 
 {{- if ne .chezmoi.hostname "arch-niri" }}
-.config/alacritty
-.config/fuzzel
-.config/gammastep
-.config/gtklock
-.config/mako
-.config/mimeapps.list
-.config/mpd
-.config/myscripts
-.config/mythemes
-.config/niri
-.config/ttdl
-.config/waybar
-.config/wlogout
-.config/xournalpp
-.config/discord
 .gitconfig
 .gnupg
+.config/*
+!.config/fish
+!.config/helix
+!.config/yazi
+!.config/starship.toml
 {{- end }}
