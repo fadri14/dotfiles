@@ -16,7 +16,7 @@ while [ 1 ]
 do
 	apps="$(niri msg focused-window)"
 
-	if [[ "$apps" = "No window is focused." || "$apps" =~ "Alacritty" ]]
+	if [[ "$apps" = "No window is focused." || "$apps" =~ "foot" ]]
 	then
 		if [ "$flag" != 1 ]
 		then
