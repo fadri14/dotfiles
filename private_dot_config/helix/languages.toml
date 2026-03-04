@@ -1,28 +1,16 @@
+use-grammars = { only = [ "rust" ] }
+
 [[language]]
 name = "rust"
-# auto-format = true
-# indent = { tab-width = 4, unit = " " }
+auto-format = true
+indent = { tab-width = 4, unit = " " }
 roots = [ "Cargo.toml", "Cargo.lock" ]
-diagnostic-severity = "warning"
+file-types = ["rs"]
+diagnostic-severity = "hint"
+language-servers = ["rust-analyzer"]
 
 [language-server.rust-analyzer]
 command = "rust-analyzer"
 
-[language-server.rust-analyzer.config]
-rust-analyzer.cargo.allTargets = false
-inlayHints.bindingModeHints.enable = false
-inlayHints.closingBraceHints.minLines = 10
-inlayHints.closureReturnTypeHints.enable = "with_block"
-inlayHints.discriminantHints.enable = "fieldless"
-inlayHints.lifetimeElisionHints.enable = "skip_trivial"
-inlayHints.typeHints.hideClosureInitialization = false
-
-[[language]]
-name = "java"
-auto-format = true
-indent = { tab-width = 4, unit = " " }
-roots = [ "pom.toml", "build.gradle" ]
-diagnostic-severity = "warning"
-
-[language-server.jdtls]
-command = "jdtls"
+[language-server.rust-analyzer.config.check]
+command = "clippy"
