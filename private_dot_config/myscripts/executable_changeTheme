@@ -19,9 +19,6 @@ then
     # swww
     WALLPAPER=dark/${new_theme:1}
 
-    # foot
-    FOOT_COLOR=2
-
     COLOR1="#000000"
     COLOR3="#000000"
 
@@ -35,9 +32,6 @@ then
     # swww
     WALLPAPER=light/${new_theme:1}
 
-    # foot
-    FOOT_COLOR=1
-
     COLOR1="#ffffff"
     COLOR3="#ffffff"
 
@@ -50,6 +44,8 @@ source "$dir_themes/templates/$new_theme"
 
 COLOR2=$($HOME/.config/myscripts/hexa_middle \\$COLOR1 \\$COLOR3)
 
+OPACITETERM=0.8
+
 if [[ "$(chezmoi status)" = "" ]]
 then
     echo "[data]
@@ -58,8 +54,7 @@ then
       color1 = \"$COLOR1\"
       color2 = \"$COLOR2\"
       color3 = \"$COLOR3\"
-      foot_opacity = \"$OPACITETERM\"
-      foot_color = \"$FOOT_COLOR\"" > "$HOME/.config/chezmoi/chezmoi.toml"
+      foot_opacity = \"$OPACITETERM\"" > "$HOME/.config/chezmoi/chezmoi.toml"
 
     pkill -x control_swww
     kill -SIGCONT $(pgrep -x swww-daemon)
