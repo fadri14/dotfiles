@@ -18,9 +18,8 @@ if status is-interactive
     starship init fish | source
     zoxide init --cmd e fish | source
 
-    eval (ssh-agent -c)
-    ssh-add ~/.ssh/github
-    clear
+    eval (ssh-agent -c) >/dev/null 2>&1
+    ssh-add ~/.ssh/github >/dev/null 2>&1
 
     function y
         set tmp (mktemp -t "yazi-cwd.XXXXXX")
