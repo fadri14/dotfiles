@@ -44,8 +44,6 @@ source "$dir_themes/templates/$new_theme"
 
 COLOR2=$($HOME/.config/myscripts/hexa_middle \\$COLOR1 \\$COLOR3)
 
-OPACITETERM=0.8
-
 if [[ "$(chezmoi status)" = "" ]]
 then
     echo "[data]
@@ -54,7 +52,7 @@ then
       color1 = \"$COLOR1\"
       color2 = \"$COLOR2\"
       color3 = \"$COLOR3\"
-      foot_opacity = \"$OPACITETERM\"" > "$HOME/.config/chezmoi/chezmoi.toml"
+      opacity = \"$OPACITETERM\"" > "$HOME/.config/chezmoi/chezmoi.toml"
 
     pkill -x control_swww
     kill -SIGCONT $(pgrep -x swww-daemon)
@@ -73,11 +71,8 @@ then
     niri msg action do-screen-transition --delay-ms 300
 
     gsettings set org.gnome.desktop.interface color-scheme "$GTHEME"
-    pkill -u "$USER" --signal="SIGUSR$FOOT_COLOR" ^foot
     fish -c "set -U my_theme $GLOBAL_THEME"
     chezmoi apply --force
-
-    exit 0
 else
     notify-send "Erreur les configurations sont différentes"
     exit 3
