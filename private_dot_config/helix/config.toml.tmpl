@@ -88,6 +88,14 @@ L = "replace_with_yanked"
 
 C-w = { c = "jump_view_left", t = "jump_view_down", s = "jump_view_up", r = "jump_view_right",  C = "swap_view_right", T = "swap_view_up", S = "swap_view_left", R = "swap_view_down",  j = "transpose_view", k = "hsplit" }
 
+C-y = [
+  ':sh rm -f /tmp/unique-file',
+  ':insert-output yazi "%{buffer_name}" --chooser-file=/tmp/unique-file',
+  ':sh printf "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+  ':open %sh{cat /tmp/unique-file}',
+  ':redraw',
+]
+
 [keys.normal.g]
 c = "goto_line_start"
 t = "move_line_down"
