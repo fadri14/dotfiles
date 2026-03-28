@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #sudo nvim /etc/anacrontab
 #1	5	empty_trash	/home/adrien/.config/myscripts/trashTmp

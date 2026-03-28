@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [[ "$1" = "d" ]]
 then
@@ -24,7 +24,6 @@ else
     new_theme=$(echo $list_theme  | cut -d ' ' -f$index)
 fi
 
-#Je dois mettre le chemin entier sinon sway ne le trouve pas avec les raccourcs
 /home/adrien/.config/myscripts/changeTheme "$new_theme"
 
 notify-send -u low "Thème : ${new_theme:1}"

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 declare -a folders=(
     "Bureau"
@@ -104,4 +104,5 @@ fi
 umount $path_mount
 rmdir $path_mount
 
+sync
 notify-send "Le script est terminé"

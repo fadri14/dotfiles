@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #Pour l'exécuter:
 #chmod +x install_zram_state

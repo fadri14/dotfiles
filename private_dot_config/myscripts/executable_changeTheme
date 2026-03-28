@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 new_theme="$1"
 dir_themes="$HOME/.config/mythemes"
@@ -16,7 +16,7 @@ then
     GLOBAL_THEME="dark"
     WRITE_THEME="#f1efef"
 
-    # swww
+    # awww
     WALLPAPER=dark/${new_theme:1}
 
     COLOR1="#000000"
@@ -29,7 +29,7 @@ then
     GLOBAL_THEME="light"
     WRITE_THEME="#090c0c"
 
-    # swww
+    # awww
     WALLPAPER=light/${new_theme:1}
 
     COLOR1="#ffffff"
@@ -54,18 +54,18 @@ then
       color3 = \"$COLOR3\"
       opacity = \"$OPACITETERM\"" > "$HOME/.config/chezmoi/chezmoi.toml"
 
-    pkill -x control_swww
-    kill -SIGCONT $(pgrep -x swww-daemon)
+    pkill -x control_awww
+    kill -SIGCONT $(pgrep -x awww-daemon)
 
     if [[ -e "$dir_themes/wallpapers/${WALLPAPER}.gif" ]]
     then
         {
-            swww img -t any "$dir_themes/wallpapers/${WALLPAPER}.gif"
+            awww img -t any "$dir_themes/wallpapers/${WALLPAPER}.gif"
             sleep 5
-            $HOME/.config/myscripts/control_swww
+            $HOME/.config/myscripts/control_awww
         } &
     else
-        swww img -t any "$dir_themes/wallpapers/${WALLPAPER}.png"
+        awww img -t any "$dir_themes/wallpapers/${WALLPAPER}.png"
     fi
 
     niri msg action do-screen-transition --delay-ms 300

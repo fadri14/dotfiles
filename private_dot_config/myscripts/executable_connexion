@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 choice=$(ls .password-store | sed 's/\.gpg//' | fuzzel --dmenu)
 

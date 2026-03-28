@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 file="/home/adrien/.config/niri/config.kdl"
 state="/home/adrien/.config/myscripts/.keyboardState.txt"

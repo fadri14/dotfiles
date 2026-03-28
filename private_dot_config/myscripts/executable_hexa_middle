@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/env python
 import sys
 
 def interpolate_color(color1, color2, ratio=0.5):
