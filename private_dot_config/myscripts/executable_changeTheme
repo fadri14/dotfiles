@@ -57,7 +57,7 @@ then
     pkill -x control_awww
     kill -SIGCONT $(pgrep -x awww-daemon)
 
-    if [[ -e "$dir_themes/wallpapers/${WALLPAPER}.gif" ]]
+    if [[ "$GIF" = "true" ]]
     then
         {
             awww img -t any "$dir_themes/wallpapers/${WALLPAPER}.gif"
