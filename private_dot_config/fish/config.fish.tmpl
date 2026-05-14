@@ -3,7 +3,8 @@ if status is-interactive
 
     export EDITOR=/usr/bin/helix
     export PATH="$PATH:$HOME/.cargo/bin/"
-    {{ if eq .chezmoi.hostname "arch-niri" }}export PATH="$HOME/.config/myscripts/:$PATH"
+{{ if eq .chezmoi.hostname "arch-niri" }}
+    export PATH="$HOME/.config/myscripts/:$PATH"
     export DIFFPROG=meld
 
     bind \eh 'wtype !!\n'
@@ -12,9 +13,9 @@ if status is-interactive
     bind \en 'wtype -M alt -k Right -m alt'
     bind \ew backward-kill-path-component
     bind \eg 'wtype " | grep "'
-    {{ else }}
+{{ else }}
     export PATH="$PATH:$HOME/go/bin/"
-    {{ end }}
+{{ end }}
     starship init fish | source
     zoxide init --cmd e fish | source
 
@@ -31,7 +32,7 @@ if status is-interactive
     end
 
     fish_config theme choose {{ .global_theme }}
-    {{ if ne .chezmoi.hostname "arch-niri" }}
+{{ if ne .chezmoi.hostname "arch-niri" }}
     function changeTheme
         if cat ~/.config/chezmoi/chezmoi.toml | grep light > /dev/null
             sed -i "s/light/dark/g" ~/.config/chezmoi/chezmoi.toml
@@ -39,7 +40,8 @@ if status is-interactive
             sed -i "s/dark/light/g" ~/.config/chezmoi/chezmoi.toml
         end
         chezmoi apply --force
-    end{{ end }}
+    end
+{{ end }}
 end
 
 function apply-my-theme --on-variable=my_theme
