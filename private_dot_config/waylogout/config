@@ -18,7 +18,7 @@ line-selection-color=00000000
 
 poweroff-command="systemctl poweroff"
 reboot-command="systemctl reboot"
-lock-command="/home/adrien/.config/myscripts/run_gtklock"
+lock-command="niri msg action power-off-monitors ; swaylock"
 suspend-command="systemctl suspend"
 hibernate-command="systemctl hibernate"
 

@@ -1,0 +1,12 @@
+screenshots
+clock
+indicator
+
+effect-blur=5x1
+indicator-radius=150
+indicator-thickness=5
+ring-color=888888
+key-hl-color=ffffff
+line-color=00000000
+text-color=ffffff
+separator-color=00000000
