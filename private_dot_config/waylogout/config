@@ -1,0 +1,29 @@
+hide-cancel
+screenshots
+instant-run
+
+effect-blur=5x1
+indicator-radius=75
+indicator-thickness=10
+
+ring-color=888888aa
+inside-color=88888866
+text-color=eaeaeaaa
+line-color=00000000
+
+ring-selection-color=33cc33aa
+inside-selection-color=33cc3366
+text-selection-color=eaeaeaaa
+line-selection-color=00000000
+
+poweroff-command="systemctl poweroff"
+reboot-command="systemctl reboot"
+lock-command="/home/adrien/.config/myscripts/run_gtklock"
+suspend-command="systemctl suspend"
+hibernate-command="systemctl hibernate"
+
+poweroff-shortcut=p
+reboot-shortcut=r
+lock-shortcut=l
+suspend-shortcut=s
+hibernate-shortcut=h
