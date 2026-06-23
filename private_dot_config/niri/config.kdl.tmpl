@@ -597,10 +597,10 @@ binds {
     Shift+XF86AudioRaiseVolume  allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
     XF86AudioLowerVolume        allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.025-"; }
 
-    XF86MonBrightnessDown       allow-when-locked=true { spawn-sh "light -U ${STEP:-2.5}" ; }
-    Shift+XF86MonBrightnessDown allow-when-locked=true { spawn-sh "light -U ${STEP:-10}" ; }
-    XF86MonBrightnessUp         allow-when-locked=true { spawn-sh "light -A ${STEP:-2.5}" ; }
-    Shift+XF86MonBrightnessUp   allow-when-locked=true { spawn-sh "light -A ${STEP:-10}" ; }
+    XF86MonBrightnessDown       allow-when-locked=true { spawn-sh "brightnessctl set 2%-" ; }
+    Shift+XF86MonBrightnessDown allow-when-locked=true { spawn-sh "brightnessctl set 10%-" ; }
+    XF86MonBrightnessUp         allow-when-locked=true { spawn-sh "brightnessctl set +2%" ; }
+    Shift+XF86MonBrightnessUp   allow-when-locked=true { spawn-sh "brightnessctl set +10%" ; }
 
     Print { screenshot; }
     Ctrl+Print hotkey-overlay-title="Take a screenshot of the screen" { screenshot-screen  write-to-disk=false; }
