@@ -47,7 +47,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol",
+        "on-click": "pwvucontrol",
         "on-click-right": "amixer set Capture toggle"
     },
     "backlight": {
