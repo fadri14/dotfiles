@@ -18,12 +18,12 @@ eof
 
 Classique
 ```bash
-chezmoi init --apply fadri14
+chezmoi init --ssh --apply fadri14
 ```
 
 Avec nix
 ```bash
-nix run nixpkgs#chezmoi init --apply fadri14
+nix run nixpkgs#chezmoi init --ssh --apply fadri14
 ```
 
 ## Initialisation de la config NixOS
