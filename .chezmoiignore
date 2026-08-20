@@ -1,6 +1,6 @@
 README.md
 
-{{- if ne .chezmoi.hostname "arch-niri" }}
+{{- if ne .chezmoi.hostname "mynixos" }}
 .gitconfig
 .gnupg
 .config/*

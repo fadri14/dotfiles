@@ -12,7 +12,7 @@ fi
 if [ "${new_theme:0:1}" = "D" ]
 then
     # général
-    GTHEME="prefer-dark"
+    GTHEME="'prefer-dark'"
     GLOBAL_THEME="dark"
     WRITE_THEME="#f1efef"
 
@@ -25,7 +25,7 @@ then
 elif [ "${new_theme:0:1}" = "L" ]
 then
     # général
-    GTHEME="prefer-light"
+    GTHEME="'prefer-light'"
     GLOBAL_THEME="light"
     WRITE_THEME="#090c0c"
 
@@ -70,7 +70,7 @@ then
 
     niri msg action do-screen-transition --delay-ms 300
 
-    gsettings set org.gnome.desktop.interface color-scheme "$GTHEME"
+    dconf write /org/gnome/desktop/interface/color-scheme $GTHEME
     fish -c "set -U my_theme $GLOBAL_THEME"
     chezmoi apply --force
 else

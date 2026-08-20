@@ -11,7 +11,7 @@ fi
 
 if [ "$choice" = "Random" ]
 then
-  if [ "$(gsettings get org.gnome.desktop.interface color-scheme)" = "'prefer-light'" ]
+  if [ "$(dconf read /org/gnome/desktop/interface/color-scheme)" = "'prefer-light'" ]
   then
     choice="Light"
   else

@@ -1,5 +1,5 @@
 chezmoi:template:left-delimiter=[[ right-delimiter=]]
-[[ if eq .chezmoi.hostname "arch-niri" ]]alias o "xdg-open 2> /dev/null"
+[[ if eq .chezmoi.hostname "mynixos" ]]
 alias mybackup "save_freetube b ; echo '' && backup b"
 alias sh "history | grep"
 alias gg "git pull"
@@ -7,23 +7,14 @@ alias gs "git status"
 alias gp git_push
 alias gc "git reset --hard && git clean -fd"
 alias gm "git stash && git pull && git stash apply"
-alias create_snap "sudo snapper -c root create --type single --cleanup-algorithm number --description 'backup_root' ; snapper -c home create --type single --cleanup-algorithm number --description 'backup_home'"
-alias ea "eza -1 --icons"
-alias eal "eza -lh --icons"
-alias i helix
+alias ea "eza -1 --icons always"
+alias eal "eza -lh --icons always"
+alias i hx
 alias t "ttdl --human"
-alias ty trashy
-alias update "arch-update -l > ~/.log_update ; arch-update"
+alias ty trash
 alias codewars "echo $(curl -s https://www.codewars.com/api/v1/users/RALIIX | jq .ranks.overall.score)/1,768"
-[[ else ]]alias sh "history | grep"
+[[ else ]]
+alias sh "history | grep"
 alias gg "git pull"
 alias gs "git status"
-alias ea "eza -1 --icons"
-alias eal "eza -lh --icons"
-alias i hx
-alias d docker
-alias dcu "docker compose up -d"
-alias dcd "docker compose down"
-alias dps 'docker ps -a --format "table {{.Image}}\t{{.Names}}\t{{.Status}}"'
 [[ end ]]
-
