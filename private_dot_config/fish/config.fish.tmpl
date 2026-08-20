@@ -1,6 +1,5 @@
 if status is-interactive
     set -g fish_greeting ''
-
 {{ if eq .chezmoi.hostname "mynixos" }}
     export EDITOR="/usr/bin/env hx"
     export PATH="$PATH:$HOME/.cargo/bin/"
