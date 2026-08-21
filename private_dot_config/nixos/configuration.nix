@@ -135,7 +135,6 @@
     settings = {
       default-cache-ttl = 3600;
     };
-    pinentryPackage = pkgs.pinentry-qt;
   };
 
   systemd.user.services.niri.enableDefaultPath = false;
@@ -207,6 +206,8 @@
      trashy
      wl-clipboard
      cliphist
+     batsignal
+     swaylock-effects
   ];
 
   # services.openssh = {
