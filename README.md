@@ -14,6 +14,19 @@ cat > ~/.config/chezmoi/chezmoi.toml << eof
 eof
 ```
 
+## Changer le nom de l'hôte
+
+Classique
+```bash
+sudo hostnamectl set-hostname mylinux
+```
+
+Avec NixOS
+```bash
+sed -i '$c\networking.hostName = "mynixos";}' /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
+```
+
 ## Initialisation de chezmoi
 
 Classique
@@ -21,7 +34,7 @@ Classique
 chezmoi init --ssh --apply fadri14
 ```
 
-Avec nix
+Avec NixOS
 ```bash
 nix run nixpkgs#chezmoi init --ssh --apply fadri14
 ```
