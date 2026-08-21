@@ -73,7 +73,7 @@
   };
 
   users = {
-    mutableUsers = false;
+    mutableUsers = true;
     users."adrien" = {
       isNormalUser = true;
       description = "mynixos";
