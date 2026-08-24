@@ -1,10 +1,26 @@
 { config, pkgs, ... }:
 
 {
-  imports =
-    [
-      ./hardware-configuration.nix
-    ];
+  imports = [
+    ./hardware-configuration.nix
+  ];
+
+  time.timeZone = "Europe/Brussels";
+  i18n.defaultLocale = "fr_BE.UTF-8";
+  console.keyMap = "fr-bepo";
+
+  users = {
+    mutableUsers = true;
+    users."adrien" = {
+      isNormalUser = true;
+      description = "mynixos";
+      initialHashedPassword = "$y$j9T$LcyXvNrGHpp5gZWGQgjWR1$lZfH0xigJBbCs5a.sqOt2BdbdZXZQ4Xk4tZhzEOsah2";
+      shell = pkgs.fish;
+      extraGroups = [
+        "wheel"
+      ];
+    };
+  };
 
   boot.loader = {
     efi.canTouchEfiVariables = true;
@@ -16,51 +32,20 @@
     timeout = 0;
   };
 
-    # Tester plymouth sur un autre pc
-  # boot = {
-  #   plymouth = {
-  #     enable = true;
-  #     theme = "rings";
-  #     themePackages = with pkgs; [
-  #       (adi1090x-plymouth-themes.override {
-  #         selected_themes = [ "circle hud" "cross hud" "cubes" "deus ex" "pixels" "rings" "spinner alt" ];
-  #       })
-  #     ];
-  #   };
-
-  #   consoleLogLevel = 3;
-  #   initrd.verbose = false;
-  #   kernelParams = [
-  #     "quiet"
-  #     "rd.udev.log_level=3"
-  #     "rd.systemd.show_status=auto"
-  #   ];
-
-  #   loader = {
-  #     efi.canTouchEfiVariables = true;
-  #     systemd-boot = {
-  #       enable = true;
-  #       editor = false;
-  #     };
-  #     timeout = 0;
-  #   };
-  # };
-
-  nixpkgs.config.allowUnfree = true;
-
   networking.hostName = "mynixos";
   networking.wireless.enable = true;
   networking.networkmanager.enable = true;
   networking.firewall = {
     enable = true;
-    allowedTCPPorts = [ 53317 ]; # localsend
+    allowedTCPPorts = [
+      53317 # localsend
+    ];
   };
 
-  time.timeZone = "Europe/Brussels";
-
-  i18n.defaultLocale = "fr_BE.UTF-8";
-
-  console.keyMap = "fr-bepo";
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = false;
+  };
 
   security.rtkit.enable = true;
   services.pipewire = {
@@ -72,37 +57,17 @@
     pulse.enable = true;
   };
 
-  users = {
-    mutableUsers = true;
-    users."adrien" = {
-      isNormalUser = true;
-      description = "mynixos";
-      hashedPassword = "$y$j9T$LcyXvNrGHpp5gZWGQgjWR1$lZfH0xigJBbCs5a.sqOt2BdbdZXZQ4Xk4tZhzEOsah2";
-      shell = pkgs.fish;
-      extraGroups = [
-        # "networkmanager" # Tester si c'est utile
-        "wheel"
-      ];
-    };
+  zramSwap = {
+    enable = true;
+    algorithm = "zstd";
+    memoryPercent = 30;
   };
 
+  # tester
   fileSystems."/home/adrien/mymount" = {
     device = "/dev/disk/e1ac2b27-f11a-4f83-b8b1-afa2dbb0eef1";
     fsType = "ext4";
     options = [ "rw" "user" "noauto"];
-  };
-
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    persistent = true;
-    options = "--delete-older-than 15d";
-  };
-
-  nix.optimise = {
-    automatic = true;
-    dates = "weekly";
-    persistent = true;
   };
 
   # À faire en utilisant la commande : file --mime-type <fichier>
@@ -110,12 +75,30 @@
   #   "application/pdf" = "firefox.desktop";
   # }
 
-  zramSwap = {
-    enable = true;
-    algorithm = "zstd";
-    memoryPercent = 30;
-  };
+  systemd.user.services.niri.enableDefaultPath = false;
 
+  security.polkit.enable = true;
+  security.soteria.enable = true;
+
+  services.gnome.gnome-keyring.enable = true;
+  services.displayManager.ly.enable = true;
+  services.glances.enable = true;
+  services.udisks2.enable = true;
+  services.gvfs.enable = true; # Permet à nautilus de voir les périphériques
+  services.blueman.enable = true;
+
+  programs.niri.enable = true;
+  programs.fish.enable = true;
+  programs.starship.enable = true;
+  programs.zoxide.enable = true;
+  programs.evince.enable = true;
+  programs.seahorse.enable = true;
+  programs.gnupg.agent = {
+    enable = true;
+    settings = {
+      default-cache-ttl = 3600;
+    };
+  };
   programs.git = {
     enable = true;
     config = {
@@ -129,29 +112,6 @@
       init.defaultBranch = "main";
     };
   };
-
-  programs.gnupg.agent = {
-    enable = true;
-    settings = {
-      default-cache-ttl = 3600;
-    };
-  };
-
-  systemd.user.services.niri.enableDefaultPath = false;
-
-  security.polkit.enable = true;
-  security.soteria.enable = true;
-  services.gnome.gnome-keyring.enable = true;
-  services.displayManager.ly.enable = true;
-
-  programs.niri.enable = true;
-  programs.fish.enable = true;
-  programs.starship.enable = true;
-  programs.zoxide.enable = true;
-  programs.gtklock.enable = true;
-  programs.evince.enable = true;
-  services.glances.enable = true;
-  programs.seahorse.enable = true;
 
   fonts.packages = with pkgs; [
     nerd-fonts.hack
@@ -191,7 +151,7 @@
      eza
      chezmoi
      yazi
-     pinentry-qt # Tester si c'est utile
+     pinentry-qt
      xwayland-satellite
      xdg-desktop-portal-gnome
      xdg-desktop-portal-gtk
@@ -208,7 +168,27 @@
      cliphist
      batsignal
      swaylock-effects
+     networkmanagerapplet
   ];
+
+  nixpkgs.config.allowUnfree = true;
+
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    persistent = true;
+    options = "--delete-older-than 15d";
+  };
+
+  nix.optimise = {
+    automatic = true;
+    dates = "weekly";
+    persistent = true;
+  };
+
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
+  system.stateVersion = "26.05";
 
   # services.openssh = {
   #   enable = true;
@@ -218,8 +198,4 @@
   #     PermitRootLogin = "no";
   #   };
   # };
-
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
-  system.stateVersion = "26.05";
 }
