@@ -118,57 +118,63 @@
   ];
 
   environment.systemPackages = with pkgs; [
-     helix
-     fastfetch
+     # Application de bureau
      librewolf
      freetube
      spotify
-     ttdl
-     localsend
-     wlogout
      alacritty
+     signal-desktop
+     discord
+     nautilus
+     gnome-calculator
+     gnome-disk-utility
+     keepassxc
+     localsend
+     eog
+     xournalpp
+     libreoffice
+
+     # Application dans le terminal
+     helix
+     yazi
+     eza
+     ttdl
+     chezmoi
+     pass
+     trashy
+     fastfetch
+
+     # Application pour le WM
+     waybar
      fuzzel
      mako
      awww
-     nautilus
-     signal-desktop
-     gnome-calculator
-     xournalpp
-     fzf
-     eog
-     ripgrep
-     gnome-disk-utility
-     pass
-     keychain
-     zenity
-     discord
-     wtype
-     python3
+     wlogout
+     swaylock-effects
+     batsignal
      gammastep
-     yt-dlp
-     keepassxc
+     brightnessctl
+     pwvucontrol
+     wtype
+     cliphist
+
+     # Autre
+     python3
      rustup
-     eza
-     chezmoi
-     yazi
+     libnotify
+     fzf
+     ripgrep
+     keychain
+     yt-dlp
+     alsa-utils
+     networkmanagerapplet
      pinentry-qt
      xwayland-satellite
      xdg-desktop-portal-gnome
      xdg-desktop-portal-gtk
-     waybar
-     jq
-     libnotify
      dconf
      adwaita-icon-theme
-     brightnessctl
-     pwvucontrol
-     alsa-utils
-     trashy
      wl-clipboard
-     cliphist
-     batsignal
-     swaylock-effects
-     networkmanagerapplet
   ];
 
   nixpkgs.config.allowUnfree = true;
