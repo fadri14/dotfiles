@@ -91,7 +91,6 @@
   programs.fish.enable = true;
   programs.starship.enable = true;
   programs.zoxide.enable = true;
-  programs.evince.enable = true;
   programs.seahorse.enable = true;
   programs.gnupg.agent = {
     enable = true;
@@ -127,10 +126,12 @@
      discord
      nautilus
      gnome-calculator
+     loupe
+     papers
+     showtime
      gnome-disk-utility
      keepassxc
      localsend
-     eog
      xournalpp
      libreoffice
 
