@@ -63,9 +63,8 @@
     memoryPercent = 30;
   };
 
-  # tester
   fileSystems."/home/adrien/mymount" = {
-    device = "/dev/disk/e1ac2b27-f11a-4f83-b8b1-afa2dbb0eef1";
+    device = "/dev/disk/by-uuid/e1ac2b27-f11a-4f83-b8b1-afa2dbb0eef1";
     fsType = "ext4";
     options = [ "rw" "user" "noauto"];
   };
