@@ -1,9 +1,6 @@
 if status is-interactive
     set -g fish_greeting ''
 {{ if eq .chezmoi.hostname "mynixos" }}
-    export EDITOR="/usr/bin/env hx"
-    export PATH="$HOME/.config/myscripts/:$PATH"
-
     bind \eh 'wtype -k Up \n'
     bind \e\r 'wtype -M ctrl -k f -m ctrl ; wtype \n'
     bind \eg 'wtype " | grep "'
