@@ -165,7 +165,6 @@
 
      # Autre
      python3
-     rustup
      libnotify
      fzf
      ripgrep
