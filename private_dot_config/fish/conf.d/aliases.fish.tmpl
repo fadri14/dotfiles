@@ -1,19 +1,11 @@
 chezmoi:template:left-delimiter=[[ right-delimiter=]]
 [[ if eq .chezmoi.hostname "mynixos" ]]
-alias mybackup "save_freetube b ; echo '' && backup b"
-alias sh "history | grep"
 alias gg "git pull"
 alias gs "git status"
 alias gp git_push
-alias gc "git reset --hard && git clean -fd"
-alias gm "git stash && git pull && git stash apply"
 alias ea "eza -1 --icons always"
 alias eal "eza -lh --icons always"
 alias i hx
 alias t "ttdl --human"
 alias ty trash
-[[ else ]]
-alias sh "history | grep"
-alias gg "git pull"
-alias gs "git status"
 [[ end ]]

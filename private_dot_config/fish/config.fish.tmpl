@@ -4,12 +4,11 @@ if status is-interactive
     export EDITOR="/usr/bin/env hx"
     export PATH="$HOME/.config/myscripts/:$PATH"
 
-    bind \eh 'wtype !!\n'
+    bind \eh 'wtype -k Up \n'
     bind \e\r 'wtype -M ctrl -k f -m ctrl ; wtype \n'
+    bind \eg 'wtype " | grep "'
     bind \er 'wtype -M alt -k Left -m alt'
     bind \en 'wtype -M alt -k Right -m alt'
-    bind \ew backward-kill-path-component
-    bind \eg 'wtype " | grep "'
 {{ end }}
     function y
         set tmp (mktemp -t "yazi-cwd.XXXXXX")
