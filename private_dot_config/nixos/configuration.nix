@@ -80,18 +80,23 @@
   security.polkit.enable = true;
   security.soteria.enable = true;
 
-  services.gnome.gnome-keyring.enable = true;
   services.displayManager.ly.enable = true;
   services.glances.enable = true;
   services.udisks2.enable = true;
-  services.gvfs.enable = true; # Permet à nautilus de voir les périphériques
+  services.gvfs.enable = true;
   services.blueman.enable = true;
+  services.gnome.gcr-ssh-agent.enable = false;
 
   programs.niri.enable = true;
   programs.fish.enable = true;
   programs.starship.enable = true;
-  programs.zoxide.enable = true;
-  programs.seahorse.enable = true;
+  programs.zoxide = {
+    enable = true;
+    flags = [ "--cmd e" ];
+  };
+  programs.ssh = {
+    startAgent = true;
+  };
   programs.gnupg.agent = {
     enable = true;
     settings = {
@@ -165,14 +170,12 @@
      libnotify
      fzf
      ripgrep
-     keychain
      yt-dlp
      alsa-utils
      networkmanagerapplet
      pinentry-qt
      xwayland-satellite
      xdg-desktop-portal-gnome
-     xdg-desktop-portal-gtk
      dconf
      adwaita-icon-theme
      wl-clipboard

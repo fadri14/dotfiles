@@ -2,7 +2,6 @@ if status is-interactive
     set -g fish_greeting ''
 {{ if eq .chezmoi.hostname "mynixos" }}
     export EDITOR="/usr/bin/env hx"
-    export PATH="$PATH:$HOME/.cargo/bin/"
     export PATH="$HOME/.config/myscripts/:$PATH"
 
     bind \eh 'wtype !!\n'
@@ -11,13 +10,7 @@ if status is-interactive
     bind \en 'wtype -M alt -k Right -m alt'
     bind \ew backward-kill-path-component
     bind \eg 'wtype " | grep "'
-
-    eval (ssh-agent -c) >/dev/null 2>&1
-    ssh-add ~/.ssh/github >/dev/null 2>&1
 {{ end }}
-    starship init fish | source
-    zoxide init --cmd e fish | source
-
     function y
         set tmp (mktemp -t "yazi-cwd.XXXXXX")
         yazi $argv --cwd-file="$tmp"
