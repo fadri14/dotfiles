@@ -177,6 +177,7 @@
      dconf
      adwaita-icon-theme
      wl-clipboard
+     translate-shell
   ];
 
   nixpkgs.config.allowUnfree = true;
