@@ -178,6 +178,8 @@
      adwaita-icon-theme
      wl-clipboard
      translate-shell
+     zip
+     unzip
   ];
 
   nixpkgs.config.allowUnfree = true;
