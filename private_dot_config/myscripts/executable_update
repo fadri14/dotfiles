@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+sudo nix flake update --flake /etc/nixos \
+&& \
+chezmoi re-add $HOME/.config/nixos/flake.lock \
+&& \
+sudo nixos-rebuild boot \
+&& \
+notify-send -a "NixOS" "Fin de la mise à jour" \
+|| \
+notify-send -a "NixOS" "ERREUR de la mise à jour"
