@@ -138,6 +138,7 @@
      localsend
      xournalpp
      libreoffice
+     keypunch
 
      # Application dans le terminal
      helix
