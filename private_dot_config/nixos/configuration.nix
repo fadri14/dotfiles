@@ -155,7 +155,7 @@
      fuzzel
      mako
      awww
-     wlogout
+     waylogout
      swaylock-effects
      batsignal
      gammastep
