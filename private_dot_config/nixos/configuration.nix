@@ -128,6 +128,7 @@
      alacritty
      signal-desktop
      discord
+     super-productivity
      nautilus
      gnome-calculator
      loupe
@@ -146,8 +147,8 @@
      eza
      ttdl
      chezmoi
-     pass
      trashy
+     pass
      fastfetch
 
      # Application pour le WM
