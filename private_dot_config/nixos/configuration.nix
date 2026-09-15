@@ -145,7 +145,6 @@
      helix
      yazi
      eza
-     ttdl
      chezmoi
      trashy
      pass
