@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, ngit, ... }:
 
 {
   imports = [
@@ -107,6 +107,8 @@
     config = {
       user.email = "fadri@proton.me";
       user.name = "fadri14";
+      nostr.npub = "npub1nsg605enzd74yguz49gseh8ummrz5jl6hrwdxxdcj2rlt7vjm4hq69q0hj";
+      nostr.nsec = "npub1nsg605enzd74yguz49gseh8ummrz5jl6hrwdxxdcj2rlt7vjm4hq69q0hj";
       core.editor = "hx";
       merge.tool = "hx";
       merge.conflictstyle = "diff3";
@@ -149,6 +151,7 @@
      trashy
      pass
      fastfetch
+     ngit.packages.${stdenv.hostPlatform.system}.default
 
      # Application pour le WM
      waybar
