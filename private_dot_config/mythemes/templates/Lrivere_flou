@@ -1,0 +1,6 @@
+#global color
+COLOR1=#f09a89
+COLOR3=#6ed0e6
+
+#alacritty
+OPACITETERM=0.7
