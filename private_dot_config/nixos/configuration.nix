@@ -1,4 +1,4 @@
-{ config, pkgs, ngit, ... }:
+{ config, pkgs, ngit, trashguard, ... }:
 
 {
   imports = [
@@ -152,6 +152,7 @@
      pass
      fastfetch
      ngit.packages.${stdenv.hostPlatform.system}.default
+     trashguard.packages.${stdenv.hostPlatform.system}.default
 
      # Application pour le WM
      waybar
