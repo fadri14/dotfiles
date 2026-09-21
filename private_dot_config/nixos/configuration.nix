@@ -170,6 +170,7 @@
 
      # Autre
      python3
+     android-file-transfer
      libnotify
      fzf
      ripgrep

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+path_mount="$HOME/mymount"
+
+mkdir -p $path_mount
+
+aft-mtp-mount mymount/ || exit 1
+
+rsync -a --delete ~/mymount/Espace\ de\ stockage\ interne\ partagé/{DCIM,Documents,Music} ~/Documents/telephone/
+
+sync
+
+umount $path_mount
+
+rmdir $path_mount
+
+notify-send "Le script est terminé"
