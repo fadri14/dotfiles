@@ -6,7 +6,7 @@ mkdir -p $path_mount
 
 aft-mtp-mount mymount/ || exit 1
 
-rsync -a --delete ~/mymount/Espace\ de\ stockage\ interne\ partagé/{DCIM,Documents,Music} ~/Documents/telephone/
+rsync -a --delete ~/mymount/Espace\ de\ stockage\ interne\ partagé/{DCIM,Documents,Music,.SeedVaultAndroidBackup} ~/Documents/telephone/
 
 sync
 
