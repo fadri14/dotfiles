@@ -63,6 +63,20 @@
     memoryPercent = 30;
   };
 
+  # Pour imprimer
+  # services.avahi = {
+  #   enable = true;
+  #   nssmdns4 = true;
+  #   openFirewall = true;
+  # };
+  # services.printing = {
+  #   enable = true;
+  #   drivers = with pkgs; [
+  #     cups-filters
+  #     cups-browsed
+  #   ];
+  # };
+
   fileSystems."/home/adrien/mymount" = {
     device = "/dev/disk/by-uuid/e1ac2b27-f11a-4f83-b8b1-afa2dbb0eef1";
     fsType = "ext4";
