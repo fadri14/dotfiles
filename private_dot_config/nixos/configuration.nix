@@ -83,11 +83,6 @@
     options = [ "rw" "user" "noauto"];
   };
 
-  # À faire en utilisant la commande : file --mime-type <fichier>
-  # xdg.mime.defaultApplications = {
-  #   "application/pdf" = "firefox.desktop";
-  # }
-
   systemd.user.services.niri.enableDefaultPath = false;
 
   security.polkit.enable = true;
@@ -155,7 +150,6 @@
      localsend
      xournalpp
      libreoffice
-     keypunch
 
      # Application dans le terminal
      helix
