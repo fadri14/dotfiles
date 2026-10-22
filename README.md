@@ -42,8 +42,6 @@ nix run nixpkgs#chezmoi init --ssh --apply fadri14
 ## Initialisation de la config NixOS
 
 ```bash
-sudo rm -fr /etc/nixos
 nixos-generate-config --show-hardware-config > ~/.config/nixos/hardware-configuration.nix
-sudo ln -s ~/.config/nixos/ /etc/
-sudo nixos-rebuild boot --flake /etc/nixos#mynixos
+sudo nixos-rebuild boot --flake /home/adrien/.config/nixos#mynixos
 ```

@@ -34,7 +34,9 @@
 
   networking.hostName = "mynixos";
   networking.wireless.enable = true;
+  networking.networkmanager.dns = "none";
   networking.networkmanager.enable = true;
+  networking.nameservers = [ "192.168.1.1" "192.168.1.60" ];
   networking.firewall = {
     enable = true;
     allowedTCPPorts = [
@@ -126,6 +128,10 @@
       init.defaultBranch = "main";
     };
   };
+  programs.gamemode.enable = true;
+  programs.steam = {
+    enable = true;
+  };
 
   fonts.packages = with pkgs; [
     nerd-fonts.hack
@@ -198,11 +204,11 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    persistent = true;
-    options = "--delete-older-than 15d";
+  programs.nh = {
+    enable = true;
+    clean.enable = true;
+    clean.extraArgs = "--keep-since 7d --keep 3";
+    flake = "/home/adrien/.config/nixos#mynixos";
   };
 
   nix.optimise = {
