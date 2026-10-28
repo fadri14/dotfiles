@@ -36,7 +36,7 @@
   networking.wireless.enable = true;
   networking.networkmanager.dns = "none";
   networking.networkmanager.enable = true;
-  networking.nameservers = [ "192.168.1.1" "192.168.1.60" ];
+  networking.nameservers = [ "94.140.14.140" ];
   networking.firewall = {
     enable = true;
     allowedTCPPorts = [
@@ -200,6 +200,25 @@
      translate-shell
      zip
      unzip
+  ];
+
+  # Le certificat du homelab
+  security.pki.certificates = [
+    ''
+    -----BEGIN CERTIFICATE-----
+    MIIB/DCCAYKgAwIBAgIIYGkdcuTSodQwCgYIKoZIzj0EAwMwIDEeMBwGA1UEAxMV
+    bWluaWNhIHJvb3QgY2EgNjA2OTFkMCAXDTI2MTAyMTE0MTY0MloYDzIxMjYxMDIx
+    MTQxNjQyWjAgMR4wHAYDVQQDExVtaW5pY2Egcm9vdCBjYSA2MDY5MWQwdjAQBgcq
+    hkjOPQIBBgUrgQQAIgNiAAROFGbBDuKqoW6ZRH9dPJ7iE/rCdjrY09I7tAdiyu1D
+    2c66LtxBNVMNCTWvNf4eNNQAclhx5wX6G638b/MATv2zuxHvoze1LJVA9WfwYLez
+    TH++2huBz5BG1ds+RHw+8rujgYYwgYMwDgYDVR0PAQH/BAQDAgKEMB0GA1UdJQQW
+    MBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1Ud
+    DgQWBBSeiwXQWum72QBlgiPkvCwm/dNFXDAfBgNVHSMEGDAWgBSeiwXQWum72QBl
+    giPkvCwm/dNFXDAKBggqhkjOPQQDAwNoADBlAjEAk1/xf4w27xXlL8+YDgCe+w7F
+    nxdbKS30SRlgAB7KOYPYbaAq3E+rAGSI1aUQ1FVMAjB3Cw34VWmQsrEPQwzT19Mx
+    gnFrCGWKJHqZh5hvs9V54gBelNrI/coHYcsQqmJB/T4=
+    -----END CERTIFICATE-----
+    ''
   ];
 
   nixpkgs.config.allowUnfree = true;
