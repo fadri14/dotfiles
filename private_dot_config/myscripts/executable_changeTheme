@@ -42,7 +42,7 @@ fi
 
 source "$dir_themes/templates/$new_theme"
 
-COLOR2=$($HOME/.config/myscripts/hexa_middle \\$COLOR1 \\$COLOR3)
+COLOR2=$($HOME/.config/myscripts/hexa_middle $COLOR1 $COLOR3)
 
 if [[ "$(chezmoi status)" = "" ]]
 then

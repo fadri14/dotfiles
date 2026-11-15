@@ -1,32 +1,45 @@
-#!/usr/bin/env python
-import sys
+#!/usr/bin/env bash
 
-def interpolate_color(color1, color2, ratio=0.5):
-    if len(color1) != 6 or len(color2) != 6:
-        raise ValueError("Les couleurs doivent être spécifiées en utilisant 6 caractères hexadécimaux.")
+# Vérifie et convertit une couleur HEX en RGB
+hex_to_rgb() {
+    local hex="${1#\#}"
 
-    r1, g1, b1 = int(color1[0:2], 16), int(color1[2:4], 16), int(color1[4:6], 16)
-    r2, g2, b2 = int(color2[0:2], 16), int(color2[2:4], 16), int(color2[4:6], 16)
+    if [[ ! "$hex" =~ ^[0-9A-Fa-f]{6}$ ]]; then
+        echo "Erreur : couleur HEX invalide ($1)" >&2
+        return 1
+    fi
 
-    r = int(r1 + (r2 - r1) * ratio)
-    g = int(g1 + (g2 - g1) * ratio)
-    b = int(b1 + (b2 - b1) * ratio)
+    echo "$((16#${hex:0:2})) $((16#${hex:2:2})) $((16#${hex:4:2}))"
+}
 
-    interpolated_color = "#{:02X}{:02X}{:02X}".format(r, g, b)
+# Calcule une couleur intermédiaire
+main() {
+    local color1="$1"
+    local color2="$2"
+    local percent=50
 
-    return interpolated_color.lower()
+    read -r r1 g1 b1 <<< "$(hex_to_rgb "$color1")" || return 1
+    read -r r2 g2 b2 <<< "$(hex_to_rgb "$color2")" || return 1
 
-if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Utilisation : python interpolate_color.py <couleur1> <couleur2> [ratio]")
-    else:
-        color1 = sys.argv[1][2:]
-        color2 = sys.argv[2][2:]
-        if len(sys.argv) > 3:
-            ratio = float(sys.argv[3])
-        else:
-            ratio = 0.5
+    if ! [[ "$percent" =~ ^[0-9]+([.][0-9]+)?$ ]] ||
+       ! awk -v p="$percent" 'BEGIN {exit !(p >= 0 && p <= 100)}'; then
+        echo "Erreur : le pourcentage doit être entre 0 et 100." >&2
+        return 1
+    fi
 
-        interpolated_color = interpolate_color(color1, color2, ratio)
-        print(interpolated_color)
+    local r g b
+
+    r=$(awk -v a="$r1" -v b="$r2" -v p="$percent" \
+        'BEGIN {printf "%d", a+(b-a)*p/100+0.5}')
+
+    g=$(awk -v a="$g1" -v b="$g2" -v p="$percent" \
+        'BEGIN {printf "%d", a+(b-a)*p/100+0.5}')
+
+    b=$(awk -v a="$b1" -v b="$b2" -v p="$percent" \
+        'BEGIN {printf "%d", a+(b-a)*p/100+0.5}')
+
+    printf "#%02X%02X%02X\n" "$r" "$g" "$b"
+}
+
+main $1 $2
 

@@ -41,7 +41,13 @@
     enable = true;
     allowedTCPPorts = [
       53317 # localsend
+      22000 # syncthing
     ];
+    allowedUDPPorts = [
+      22000 # syncthing
+      21027 # syncthing
+    ];
+
   };
 
   hardware.bluetooth = {
@@ -96,6 +102,11 @@
   services.gvfs.enable = true;
   services.blueman.enable = true;
   services.gnome.gcr-ssh-agent.enable = false;
+  # services.syncthing = {
+  #   enable = true;
+  #   systemService = false;
+  # };
+  # systemd.targets.multi-user.wants = [ "syncthing@adrien.service" ];
 
   programs.niri.enable = true;
   programs.fish.enable = true;
@@ -156,6 +167,7 @@
      localsend
      xournalpp
      libreoffice
+     joplin-desktop
 
      # Application dans le terminal
      helix
@@ -183,7 +195,6 @@
      cliphist
 
      # Autre
-     python3
      android-file-transfer
      libnotify
      fzf
