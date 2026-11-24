@@ -18,6 +18,8 @@
       shell = pkgs.fish;
       extraGroups = [
         "wheel"
+        "networkmanager"
+        "netbird-wt0"
       ];
     };
   };
@@ -34,9 +36,7 @@
 
   networking.hostName = "mynixos";
   networking.wireless.enable = true;
-  networking.networkmanager.dns = "none";
   networking.networkmanager.enable = true;
-  networking.nameservers = [ "94.140.14.140" ];
   networking.firewall = {
     enable = true;
     allowedTCPPorts = [
@@ -102,6 +102,8 @@
   services.gvfs.enable = true;
   services.blueman.enable = true;
   services.gnome.gcr-ssh-agent.enable = false;
+  services.netbird.clients.wt0.port = 51821;
+  services.resolved.enable = true;
   # services.syncthing = {
   #   enable = true;
   #   systemService = false;
